@@ -18,7 +18,7 @@ closing	Ending slide*/
 
 body {
   font-family: Arial, sans-serif;
-  background: #e9eef5;
+  background: #AEAFF1;
   overflow-x: hidden;
 }
 
@@ -45,7 +45,7 @@ Look for slide.classList.add("dark");
 */
 
 .slide.dark {
-  background: #003366;
+  background: #0004e1;
   color: white;
 }
 
@@ -107,7 +107,7 @@ Large headline text.*/
 
 .stat-card {
   flex: 1;
-  background: #003366;
+  background: #e81035;
   color: white;
   padding: 30px;
   border-radius: 14px;
@@ -130,7 +130,7 @@ Large headline text.*/
 
 .timeline-item {
   padding: 10px;
-  border-left: 4px solid #00AEEF;
+  border-left: 8px solid #e81035;
   margin-bottom: 10px;
   background: #f7f9fc;
 }
@@ -185,7 +185,7 @@ Slide metadata*/
   right: 20px;
   z-index: 9999;
 
-  background: #003366;
+  background: #AEAFF1;
   color: white;
   border: none;
 
@@ -195,12 +195,13 @@ Slide metadata*/
   font-size: 16px;
   cursor: pointer;
 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 #exportBtn:hover {
-  background: #0055A5;
+  background: #0004e1;
 }
+
 
 /* If screen width is less than 768px */
 @media (max-width: 768px) {

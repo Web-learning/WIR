@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "presentationTitle": "May-Sept 2026 Wikipedian in Residence",
+    "companyName": "Weblearning"
+  },
+
+  "branding": {
+    "colors": {
+      "primary": "#003366",
+      "accent": "#00AEEF"
+    },
+
+    "footer": {
+      "text": "CC BY Weblearning | Code for Africa | AWA"
+    }
+  },
+
+  "slides": [
+    {
+      "type": "cover",
+      "title": "May-Sept 2026 | Wikipedian in Residence",
+      "subtitle": "AWA/C4A Inclusion Project"
+    }
+  ]
+}

@@ -31,6 +31,7 @@ const presentationData = {
         "The Inclusion Project",
         "Our Focus:Xenophobia, Election, government, gender equity,and LGBTQ Rights",
         "My Roadmap and Plans",
+        "https://outreachdashboard.wmflabs.org/users/Derek%20J%20Moore",
         "Other Fellows"
        ]
     },

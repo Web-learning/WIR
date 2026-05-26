@@ -1,1 +1,203 @@
+/*Slide Type	
+COVER >	Opening slide
+AGENDA > 	Presentation contents
+TWO COLUMN >	Side-by-side layouts
+STATISTICS	> cards
+TIMELEINE >	Chronological roadmap
+TEAM >	Team profiles
+THEME > Categories
+quote	Testimonials/quotes
+closing	Ending slide*/
 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #e9eef5;
+  overflow-x: hidden;
+}
+
+#presentation {
+  width: 100%;
+}
+
+/*Core Slide Structure*/
+.slide {
+  width: 100vw;
+  height: 100vh;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border-bottom: 10px solid #ddd;
+}
+
+/* Dark Slide Theme
+Used for:
+Cover slides, Closing slides, Section breaks. 
+Look for slide.classList.add("dark");
+*/
+
+.slide.dark {
+  background: #003366;
+  color: white;
+}
+
+/* Typography 
+Slide Title and Subtitle
+*/
+.slide-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.slide-subtitle {
+  font-size: 1.5rem;
+  opacity: 0.85;
+}
+
+/* 
+Large headline text.*/
+.agenda-list {
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+.agenda-list li {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.two-column {
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.column {
+  flex: 1;
+}
+
+.column h3 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.column ul {
+  padding-left: 20px;
+}
+
+.column li {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.stats {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.stat-card {
+  flex: 1;
+  background: #003366;
+  color: white;
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.stat-label {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.timeline {
+  margin-top: 40px;
+}
+
+.timeline-item {
+  padding: 10px;
+  border-left: 4px solid #00AEEF;
+  margin-bottom: 10px;
+  background: #f7f9fc;
+}
+
+.theme-grid {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.theme-number {
+  flex: 1;
+  background: #f4f7fa;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.theme-number h3 {
+  margin-bottom: 10px;
+}
+
+/*Quote/Testimonial Slide*/
+.quote-box {
+  margin-top: 50px;
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.quote-author {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/*Footer System 
+Company name
+Persistant notice
+Slide metadata*/
+.footer {
+  position: absolute;
+  bottom: 20px;
+  left: 60px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+#exportBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+
+  background: #003366;
+  color: white;
+  border: none;
+
+  padding: 14px 22px;
+  border-radius: 10px;
+
+  font-size: 16px;
+  cursor: pointer;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+#exportBtn:hover {
+  background: #0055A5;
+}

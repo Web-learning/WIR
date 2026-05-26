@@ -201,3 +201,16 @@ Slide metadata*/
 #exportBtn:hover {
   background: #0055A5;
 }
+
+/* If screen width is less than 768px */
+@media (max-width: 768px) {
+
+  .two-column {
+    grid-template-columns: 1fr;
+  }
+
+  .slide-title {
+    font-size: 2rem;
+  }
+
+}

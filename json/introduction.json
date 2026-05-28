@@ -1,129 +1,162 @@
 {
-  meta: {
-    presentationTitle: "May-Sept 2026 Wikipedian in Residence",
-    companyName: "Weblearning"
+  "meta": {
+    "presentationTitle": "May–Sept 2026 Wikipedian in Residence",
+    "companyName": "Weblearning"
   },
 
-  branding: {
-    colors: {
-      primary: "#003366",
-      accent: "#00AEEF"
+  "branding": {
+    "colors": {
+      "primary": "#003366",
+      "accent": "#00AEEF"
     },
 
-    footer: {
-      "text": " Weblearning  | Introduction",
+    "footer": {
+      "text": "Weblearning | Introduction"
     }
   },
 
-  slides: [
+  "slides": [
     {
-      type: "cover",
-      title: "May-Sept 2026 | Wikipedian in Residence",
-      subtitle: "AWA/C4A Inclusion Project"
+      "type": "cover",
+      "title": "May–Sept 2026 | Wikipedian in Residence",
+      "subtitle": "AWA/C4A Inclusion Project"
     },
 
     {
-      type: "agenda",
-      title: "Agenda",
-      items: [
-       "The African Wikipedian Alliance (AWA) and Code for Africa (C4A() 2026 fellowships",
+      "type": "agenda",
+      "title": "Agenda",
+
+      "items": [
+        "The African Wikipedian Alliance (AWA) and Code for Africa (C4A) 2026 Fellowships",
         "The Inclusion Project",
-        "Our Focus:Xenophobia, Election, government, gender equity,and LGBTQ Rights",
+        "Our Focus: Xenophobia, Elections, Government, Gender Equity, and LGBTQ Rights",
         "My Roadmap and Plans",
         "Other Fellows"
-       ]
+      ]
     },
 
     {
-      type: "two-column-content",
-      title: "Who We Are",
-      leftColumn: {
-        heading: "About AWA",
-        body: [
-          "Founded in ?",
-          "Operating in 12 countries in Africa",
-          "Insert Tag line"
+      "type": "two-column-content",
+
+      "title": "Who We Are",
+
+      "leftColumn": {
+        "heading": "About AWA",
+
+        "body": [
+          "Founded in Africa",
+          "Operating in 12 countries across Africa",
+          "Community-driven Wikimedia initiatives"
+        ]
+      },
+
+      "rightColumn": {
+        "heading": "About C4A",
+
+        "body": [
+          "Africa’s largest civic technology network",
+          "Focused on digital democracy and open data",
+          "Supporting inclusion and public-interest technology"
         ]
       }
     },
 
     {
-      type: "statistics",
-      title: "Every month I intend to",
-      statistics: [
+      "type": "statistics",
+
+      "title": "Every Month I Intend To",
+
+      "statistics": [
         {
-          label: "Engagae with Wikipedians",
-          value: "30"
+          "label": "Engage with Wikipedians",
+          "value": "30"
         },
+
         {
-          label: "Recruit new editors",
-          value: "10"
+          "label": "Recruit New Editors",
+          "value": "10"
         },
+
         {
-          label: "Run public events",
-          value: "3"
+          "label": "Run Public Events",
+          "value": "3"
         }
       ]
     },
 
     {
-      type: "timeline",
-      title: "Strategic Roadmap",
-      timeline: [
+      "type": "timeline",
+
+      "title": "Strategic Roadmap",
+
+      "timeline": [
         {
-          quarter: "May 2026",
-          milestone: "Planning and Roadmap"
+          "quarter": "May 2026",
+          "milestone": "Planning and Roadmap"
         },
+
         {
-          quarter: "June 2026",
-          milestone: "Workshops"
+          "quarter": "June 2026",
+          "milestone": "Community Workshops"
         },
+
         {
-          quarter: "July 2026",
-          milestone: "Wikimedia Conference"
+          "quarter": "July 2026",
+          "milestone": "Wikimedia Conference"
         },
+
         {
-          quarter: "August 2026",
-          milestone: "Workshops"
+          "quarter": "August 2026",
+          "milestone": "Regional Workshops"
         },
+
         {
-          quarter: "September 2026",
-          milestone: "Wrap Up"
+          "quarter": "September 2026",
+          "milestone": "Project Wrap-Up"
         }
       ]
     },
 
     {
-      type: "theme",
-      title: "Themes",
-      members: [
+      "type": "theme",
+
+      "title": "Project Themes",
+
+      "members": [
         {
-          name: "Maps Making",
-          role: "Link to be added"
+          "name": "Map Making",
+          "role": "Link to be added"
         },
+
         {
-          name: "Inclusion",
-          role: "Link to be added"
+          "name": "Inclusion",
+          "role": "Link to be added"
         },
+
         {
-          name: "SLAM",
-          role: "Link to be added"
+          "name": "SLAM",
+          "role": "Link to be added"
         }
       ]
     },
 
     {
-      type: "quote",
-      title: "Testimonial",
-      quote:
-        "We are thrilled to share some fantastic news with you all! Our very own Twin Mosia and Derek Moore have been selected for the Wikipedian-in-Residence (WiR) Fellowships...This is a remarkable achievement and a testament to their dedication, technical skills, and the impact they’ve made within the community.",
-      author: "Nomfundo Zungu Communications intern WMZA"
+      "type": "quote",
+
+      "title": "Testimonial",
+
+      "quote": "We are thrilled to share some fantastic news with you all! Our very own Twin Mosia and Derek Moore have been selected for the Wikipedian-in-Residence (WiR) Fellowships. This is a remarkable achievement and a testament to their dedication, technical skills, and the impact they’ve made within the community.",
+
+      "author": "Nomfundo Zungu — Communications Intern, Wikimedia South Africa"
     },
 
     {
-      type: "closing",
-      title: "Thank You",
-      subtitle: "Questions & Discussion"
+      "type": "closing",
+
+      "title": "Thank You",
+
+      "subtitle": "Questions & Discussion"
     }
   ]
 }
+

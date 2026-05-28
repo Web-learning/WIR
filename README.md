@@ -1,3 +1,4 @@
 # WIR
 Presentations from the WIR
-[Introduction](https://web-learning.github.io/WIR/introduction/)
+## May-Sept 2026 | Wikipedian in Residence
+[An Introduction](https://web-learning.github.io/WIR/introduction/)

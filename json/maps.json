@@ -21,6 +21,16 @@
       "title": "GeoJSON for New Map Makers",
       "subtitle": "with Weblearning"
     },
+         {
+      "type": "agenda",
+      "title": "Agenda",
+
+      "items": [
+        "Understand what GeoJSON is",
+        "Why (and why not) does it go with web mapping",
+        "Recognize common GeoJSON file structures"
+      ]
+    },
 {
       "type": "closing",
 

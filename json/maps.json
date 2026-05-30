@@ -1,55 +1,88 @@
-Here's a beginner-friendly teaching outline for introducing GeoJSON to a new map maker.
-
-# Teaching GeoJSON for New Map Makers
-
-## 1. Introduction to GeoJSON
-
-### Learning Goals
-
-* Understand what GeoJSON is
-* Learn why it is widely used in web mapping
-* Recognize common GeoJSON file structures
-
-### Topics
-
-* What is GeoJSON?
-* Relationship between JSON and GeoJSON
-* Advantages of GeoJSON:
-
-  * Human-readable
-  * Easy to share
-  * Supported by many mapping tools
-* Typical use cases:
-
-  * Storing locations
-  * Mapping routes
-  * Defining boundaries
-
-### Activity
-
-Open a simple GeoJSON file and identify:
-
-* Coordinates
-* Properties
-* Geometry type
-
----
-
-## 2. Understanding the Basic Structure
-
-### Topics
-
-* GeoJSON as a JSON object
-* Key elements:
-
-  * `type`
-  * `geometry`
-  * `properties`
-
-### Example Breakdown
-
-```json
 {
+  "meta": {
+    "presentationTitle": "MayGeoJSON for New Map Makers",
+    "companyName": "Weblearning"
+  },
+
+  "branding": {
+    "colors": {
+      "primary": "#003366",
+      "accent": "#00AEEF"
+    },
+
+    "footer": {
+      "text": "Weblearning | Map Making"
+    }
+  },
+
+   "slides": [
+    {
+      "type": "cover",
+      "title": "May 2026 | Wikipedian in Residence",
+      "subtitle": "Map Making"
+    },
+    {
+      "type": "agenda",
+      "title": "Agenda",
+
+      "items": [
+        "Understand what GeoJSON is",
+        "Why (and why not) does it go with web mapping",
+        "Recognize common GeoJSON file structures"
+      ]
+    },
+    {
+      "type": "two-column-content",
+
+      "title": "Who We Are",
+
+      "leftColumn": {
+        "heading": "Meet GeoJSON",
+
+        "body": [
+          "GeoJSON is aasy to share",
+          "Supported by many mapping tools"
+        ]
+      },
+
+      "rightColumn": {
+        "heading": "Typical use cases",
+
+        "body": [
+          "Storing locations",
+          "Mapping routes",
+          "Defining boundaries"
+        ]
+      }
+    },
+    {
+      "type": "theme",
+
+      "title": "Open a simple GeoJSON file and identify",
+
+      "members": [
+        {
+          "name": "Coordinates",
+          "role": "Link to be added"
+        },
+
+        {
+          "name": "Properties",
+          "role": "Link to be added"
+        },
+
+        {
+          "name": "Geometry type",
+          "role": "Link to be added"
+        }
+      ]
+    },
+ {
+      "type": "quote",
+
+      "title": "Example",
+
+      "quote": "    {
   "type": "Feature",
   "geometry": {
     "type": "Point",
@@ -59,231 +92,68 @@ Open a simple GeoJSON file and identify:
     "name": "Johannesburg"
   }
 }
-```
+",
 
-### Activity
+      "author": "Guess Where"
+    },
+    {
+      "type": "timeline",
 
-Label each part of the example.
+      "title": "Create a storymap",
 
----
+      "timeline": [
+        {
+          "quarter": "Step 1",
+          "milestone": "Planning your Roadmap"
+        },
 
-## 3. GeoJSON Geometry Types
+        {
+          "quarter": "Step 2",
+          "milestone": "Identifying locations"
+        },
 
-### Point
+        {
+          "quarter": "Step 3",
+          "milestone": "Plotting points"
+        },
 
-* Single location
-* Example: city, landmark, bus stop
+        {
+          "quarter": "Step 4",
+          "milestone": "Making boundaries"
+        },
 
-### LineString
+        {
+          "quarter": "Step 5",
+          "milestone": "Pulling it all together"
+        }
+      ]
+    },
+    {
+      "type": "agenda",
+      "title": "Mini Project",
 
-* Connected path
-* Example: road, river, hiking trail
+      "items": [
+        "Build a small neighborhood map.",
+        "2 roads (LineStrings)",
+        "1 park or boundary (Polygon)"
+      ]
+    },
+    {
+      "type": "agenda",
+      "title": "Can you....",
 
-### Polygon
-
-* Closed area
-* Example: park, property boundary, country outline
-
-### MultiPoint
-
-* Collection of points
-
-### MultiLineString
-
-* Collection of lines
-
-### MultiPolygon
-
-* Collection of polygons
-
-### Activity
-
-Draw each geometry type on paper before viewing them on a map.
-
----
-
-## 4. Features and Properties
-
-### Topics
-
-* What a Feature represents
-* Adding descriptive information
-
-### Example Properties
-
-```json
-"properties": {
-  "name": "Park",
-  "type": "Recreation",
-  "area_hectares": 15
-}
-```
-
-### Activity
-
-Create a feature for:
-
-* A school
-* A restaurant
-* A park
-
-Add useful attributes to each.
-
----
-
-## 5. Feature Collections
-
-### Topics
-
-* Storing multiple features together
-* Structure of a FeatureCollection
-
-### Example
-
-```json
+      "items": [
+        "Read a GeoJSON files confidently",
+        "Create valid GeoJSON features",
+        "Understand points, lines, and polygons"
+      ]
+    },
 {
-  "type": "FeatureCollection",
-  "features": [
-    {...},
-    {...}
+      "type": "closing",
+
+      "title": "Thank You",
+
+      "subtitle": "Questions & Discussion"
+    }
   ]
 }
-```
-
-### Activity
-
-Build a FeatureCollection containing:
-
-* Three landmarks
-* One road
-* One park
-
----
-
-## 6. Working with Coordinates
-
-### Topics
-
-* Longitude comes first
-* Latitude comes second
-* Coordinate format:
-
-  ```text
-  [longitude, latitude]
-  ```
-
-### Common Mistakes
-
-* Reversing latitude and longitude
-* Missing brackets
-* Incorrect polygon closure
-
-### Activity
-
-Locate several known places using coordinates.
-
----
-
-## 7. Visualizing GeoJSON
-
-### Topics
-
-* Loading GeoJSON into mapping software
-* Viewing features on a map
-
-### Suggested Tools
-
-* QGIS
-* [geojson.io](https://geojson.io?utm_source=chatgpt.com)
-* [Mapshaper](https://mapshaper.org?utm_source=chatgpt.com)
-
-### Activity
-
-Import a GeoJSON file and inspect the map output.
-
----
-
-## 8. Creating GeoJSON by Hand
-
-### Topics
-
-* Writing valid JSON
-* Using proper nesting
-* Validating files
-
-### Activity
-
-Create:
-
-1. A point feature
-2. A route as a LineString
-3. A park boundary as a Polygon
-
----
-
-## 9. Common Mapping Workflows
-
-### Topics
-
-* Collecting field data
-* Exporting from GIS software
-* Sharing datasets
-* Using GeoJSON on web maps
-
-### Example Workflow
-
-1. Collect locations
-2. Create GeoJSON
-3. Validate
-4. Visualize
-5. Publish
-
----
-
-## 10. Mini Project
-
-### Goal
-
-Build a small neighborhood map.
-
-### Requirements
-
-Include:
-
-* 5 landmarks (Points)
-* 2 roads (LineStrings)
-* 1 park or boundary (Polygon)
-
-### Deliverables
-
-* GeoJSON file
-* Map visualization
-* Short description of each feature
-
----
-
-## 11. Advanced Topics (Optional)
-
-### Topics
-
-* Coordinate Reference Systems
-* GeoJSON limitations
-* Styling map layers
-* Using GeoJSON with:
-
-  * [Leaflet](https://leafletjs.com?utm_source=chatgpt.com)
-  * [MapLibre GL JS](https://maplibre.org?utm_source=chatgpt.com)
-  * [OpenLayers](https://openlayers.org?utm_source=chatgpt.com)
-
----
-
-# End-of-Course Outcomes
-
-By the end of the lesson, learners should be able to:
-
-* Read GeoJSON files confidently
-* Create valid GeoJSON features
-* Understand points, lines, and polygons
-* Add useful feature properties
-* Load GeoJSON into mapping software
-* Build and share a simple map dataset independently

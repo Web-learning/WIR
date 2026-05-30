@@ -1,6 +1,6 @@
 {
   "meta": {
-    "presentationTitle": "GeoJSON for New Map Makers",
+    "presentationTitle": "GeoJSON Treasure Hunt",
     "companyName": "Weblearning"
   },
 
@@ -18,7 +18,7 @@
    "slides": [
     {
       "type": "cover",
-      "title": "GeoJSON for New Map Makers",
+      "title": "GeoJSON Treasure Hunt",
       "subtitle": "with Weblearning"
     },
          {
@@ -27,8 +27,8 @@
 
       "items": [
         "Understand what GeoJSON is",
-        "Why (and why not) does it go with web mapping",
-        "Recognize common GeoJSON file structures"
+        "Why (and why not) do web mapping",
+        "Recognize two common GeoJSON features"
       ]
     },
     {

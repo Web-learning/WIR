@@ -31,7 +31,32 @@
         "Recognize common GeoJSON file structures"
       ]
     },
-{
+    {
+      "type": "two-column-content",
+
+      "title": "Who We Are",
+
+      "leftColumn": {
+        "heading": "Meet GeoJSON",
+
+        "body": [
+          "GeoJSON is aasy to share",
+          "Supported by many mapping tools"
+        ]
+      },
+
+      "rightColumn": {
+        "heading": "Typical use cases",
+
+        "body": [
+          "Storing locations",
+          "Mapping routes",
+          "Defining boundaries"
+        ]
+      }
+    },
+
+     {
       "type": "closing",
 
       "title": "Thank You",

@@ -82,17 +82,7 @@
 
       "title": "Example",
 
-      "quote": "    {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [28.0473, -26.2041]
-  },
-  "properties": {
-    "name": "Johannesburg"
-  }
-}
-",
+      "quote": " ",
 
       "author": "Guess Where"
     },

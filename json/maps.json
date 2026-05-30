@@ -34,14 +34,15 @@
     {
       "type": "two-column-content",
 
-      "title": "Who We Are",
+      "title": "Have you ever sent anyone a pin?",
 
       "leftColumn": {
         "heading": "Meet GeoJSON",
 
         "body": [
-          "GeoJSON is aasy to share",
-          "Supported by many mapping tools"
+          "GeoJSON is easy to share",
+          "GeoJSON is free to make",
+          "GeoJSON is supported by many mapping tools"
         ]
       },
 
@@ -49,11 +50,60 @@
         "heading": "Typical use cases",
 
         "body": [
-          "Storing locations",
-          "Mapping routes",
-          "Defining boundaries"
+          "Sharing locations",
+          "Showing a route",
+          "Defining a boundaries"
         ]
       }
+    },
+    {
+      "type": "theme",
+
+      "title": "Think of a treasure map...",
+
+      "members": [
+        {
+          "name": "Coordinates",
+          "role": "Longitude and latitude"
+        },
+
+        {
+          "name": "Points",
+          "role": "X Marks the spot"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+
+      "title": "Create a treasure hunt",
+
+      "timeline": [
+        {
+          "quarter": "Step 1",
+          "milestone": "Planning your hunt"
+        },
+
+        {
+          "quarter": "Step 2",
+          "milestone": "Identify the lat and long of the secret location"
+        },
+
+        {
+          "quarter": "Step 3",
+          "milestone": "Plot out important points"
+        },
+
+        {
+          "quarter": "Step 4",
+          "milestone": "Add some boundaries"
+        },
+
+        {
+          "quarter": "Step 5",
+          "milestone": "Pull it all together"
+        }
+      ]
     },
 
      {

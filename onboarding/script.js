@@ -1,124 +1,104 @@
 //Prompted with CHAT GPT
 //https://raw.githubusercontent.com/Web-learning/WIR/refs/heads/main/json/introduction.json
 const presentationData = {
-  "meta": {
-    "presentationTitle": "Onboarding",
-    "companyName": "Weblearning"
-  },
+  "presentationTitle": "Onboarding",
+  "companyName": "Weblearning",
 
   "branding": {
     "colors": {
       "primary": "#003366",
       "accent": "#00AEEF"
     },
-
     "footer": {
       "text": "Weblearning | User Page"
     }
   },
 
-   "slides": [
+  "slides": [
     {
       "type": "cover",
-      "title": "Want to learn about creating a wikipedia page?",
+      "title": "Want to learn about creating a Wikipedia page?",
       "subtitle": "Then try it yourself"
     },
-         {
+    {
       "type": "agenda",
       "title": "Agenda",
-
       "items": [
-       "Let's break it down. Images, content and references",
-	   "Find a user image that represents you",
+        "Let's break it down: images, content, and references",
+        "Find a user image that represents you",
         "Write content that describes your achievements",
         "Collect identifiers that confirm these achievements",
-		"Lets be fabulous!"
+        "Let's be fabulous!"
       ]
     },
     {
       "type": "two-column-content",
-
       "title": "What makes a textbook credible?",
-
       "leftColumn": {
         "heading": "It has both substance and style",
-
         "body": [
-          "Chapters, headings, a table of contents",
-          "illustrations, diagrams, and maps",
+          "Chapters, headings, and a table of contents",
+          "Illustrations, diagrams, and maps",
           "References to other sources"
         ]
       },
-
       "rightColumn": {
-        "heading": "Who is a good Wikipedian",
-
+        "heading": "Who is a good Wikipedian?",
         "body": [
-          "A person who is passionate about knowledgeable",
-          "Would like to improve and share information about those things",
-          "Goes ahead and is BOLD and combines substance and style"
+          "A person who is passionate about knowledge",
+          "Someone who wants to improve and share information",
+          "Someone who is bold and combines substance with style"
         ]
       }
     },
     {
       "type": "theme",
-
-      "title": "Are you a credeble Wikipedian?",
-
+      "title": "Are you a credible Wikipedian?",
       "members": [
         {
           "name": "Wikipedia heading and lede",
-          "task": "To introduce the wikipedian"
+          "role": "Introduces the Wikipedian"
         },
         {
           "name": "Wikidata identifiers",
           "role": "A collection of credible references"
         },
-		        {
-          "name": "Images in an Infobox",
+        {
+          "name": "Images in an infobox",
           "role": "Visual reference points (map, photo, collage)"
         }
       ]
     },
     {
       "type": "timeline",
-
       "title": "Getting onboard",
-
       "timeline": [
         {
           "quarter": "Step 1",
           "milestone": "Choose an image and upload it"
         },
-
         {
           "quarter": "Step 2",
           "milestone": "Identify your latitude and longitude (home or work)"
         },
-
         {
           "quarter": "Step 3",
           "milestone": "Collect your identifiers on Wikidata"
         },
-
         {
           "quarter": "Step 4",
-          "milestone": "Insert your inforbox"
+          "milestone": "Insert your infobox"
         },
-
         {
           "quarter": "Step 5",
           "milestone": "Write your heading and lede"
         }
       ]
     },
-
-     {
+    {
       "type": "closing",
-
       "title": "We have only just begun, but THANK YOU",
-
-      "subtitle": "Lets begin...."
+      "subtitle": "Let's begin..."
     }
   ]
 };

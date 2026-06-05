@@ -53,7 +53,7 @@ const presentationData = {
     },
     {
       "type": "theme",
-      "title": "Are you a credible Wikipedian?",
+      "title": "Do you present as a credible Wikipedian?",
       "members": [
         {
           "name": "Wikipedia heading and lede",

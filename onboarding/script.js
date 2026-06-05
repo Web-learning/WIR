@@ -31,8 +31,8 @@ const presentationData = {
        "Let's break it down. Images, content and references",
 	   "Find a user image that represents you",
         "Write content that describes your achievements",
-        "Collect identifiers that confirm these achievements"
-		  "Lets be fabulous!"
+        "Collect identifiers that confirm these achievements",
+		"Lets be fabulous!"
       ]
     },
     {

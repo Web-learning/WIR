@@ -98,7 +98,7 @@ const presentationData = {
     {
       "type": "closing",
       "title": "We have only just begun, but THANK YOU",
-      "subtitle": "Let's begin..."
+      "subtitle": "Wikipedia:Lets_go"
     }
   ]
 };

@@ -18,7 +18,7 @@ const presentationData = {
     {
       "type": "cover",
       "title": "Want to learn about creating a Wikipedia page?",
-      "subtitle": "Then try it yourself"
+      "subtitle": "Then do it yourself (DIY)"
     },
     {
       "type": "agenda",

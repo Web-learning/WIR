@@ -10,7 +10,7 @@ const presentationData = {
       "accent": "#00AEEF"
     },
     "footer": {
-      "text": "Weblearning | User Page"
+      "text": "Weblearning | Create a Wikipedia Sandbox Page about YOU"
     }
   },
 

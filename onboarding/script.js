@@ -20,61 +20,62 @@ const presentationData = {
    "slides": [
     {
       "type": "cover",
-      "title": "Want to learn about creating a userpage?",
-      "subtitle": "with Weblearning"
+      "title": "Want to learn about creating a wikipedia page?",
+      "subtitle": "Then try it yourself"
     },
          {
       "type": "agenda",
       "title": "Agenda",
 
       "items": [
-       "Some amazing examples",
+       "Let's break it down. Images, content and references",
 	   "Find a user image that represents you",
-        "Upload your user image to commons",
-        "Lets be fabulous!"
+        "Write content that describes your achievements",
+        "Collect identifiers that confirm these achievements"
+		  "Lets be fabulous!"
       ]
     },
     {
       "type": "two-column-content",
 
-      "title": "Ever had a friendship with someone you never met?",
+      "title": "What makes a textbook credible?",
 
       "leftColumn": {
-        "heading": "Ambient Friendships",
+        "heading": "It has both substance and style",
 
         "body": [
-          "We are social creatures",
-          "We interact in person and remotely",
-          "We like learning things together or from each other"
+          "Chapters, headings, a table of contents",
+          "illustrations, diagrams, and maps",
+          "References to other sources"
         ]
       },
 
       "rightColumn": {
-        "heading": "Typical Wikipedian",
+        "heading": "Who is a good Wikipedian",
 
         "body": [
-          "Is passionate and knowledgeable about certain things ",
+          "A person who is passionate about knowledgeable",
           "Would like to improve and share information about those things",
-          "Goes ahead and is BOLD and makes things happen"
+          "Goes ahead and is BOLD and combines substance and style"
         ]
       }
     },
     {
       "type": "theme",
 
-      "title": "What makes for a credeble Wikipedian?",
+      "title": "Are you a credeble Wikipedian?",
 
       "members": [
         {
           "name": "Wikipedia heading and lede",
-          "role": "To quickly introduce the person"
+          "task": "To introduce the wikipedian"
         },
         {
           "name": "Wikidata identifiers",
-          "role": "A collection of credible links to the person"
+          "role": "A collection of credible references"
         },
 		        {
-          "name": "Infobox",
+          "name": "Images in an Infobox",
           "role": "Visual reference points (map, photo, collage)"
         }
       ]
@@ -87,17 +88,17 @@ const presentationData = {
       "timeline": [
         {
           "quarter": "Step 1",
-          "milestone": "Choose a user image and upload it"
+          "milestone": "Choose an image and upload it"
         },
 
         {
           "quarter": "Step 2",
-          "milestone": "Identify the latitude and longitude (home or work)"
+          "milestone": "Identify your latitude and longitude (home or work)"
         },
 
         {
           "quarter": "Step 3",
-          "milestone": "Share your identifiers on Wikidata"
+          "milestone": "Collect your identifiers on Wikidata"
         },
 
         {
@@ -107,7 +108,7 @@ const presentationData = {
 
         {
           "quarter": "Step 5",
-          "milestone": "Pull it all together"
+          "milestone": "Write your heading and lede"
         }
       ]
     },
@@ -115,9 +116,9 @@ const presentationData = {
      {
       "type": "closing",
 
-      "title": "Thank You",
+      "title": "We have only just begun, but THANK YOU",
 
-      "subtitle": "Questions & Discussion"
+      "subtitle": "Lets begin...."
     }
   ]
 };

@@ -70,14 +70,10 @@
 "type": "theme",
 "title": "South African Languages on Wikipedia",
 "members": [
-{
-"name": "<a href="https://zu.wikipedia.org"
-   target="_blank"
-   rel="noopener noreferrer">
-   isiZulu Wikipedia
-   </a>",
-"role": "Largest home language community"
-},
+    {
+      "name": "<a href=\"https://zu.wikipedia.org\" target=\"_blank\" rel=\"noopener noreferrer\">isiZulu Wikipedia</a>",
+      "role": "Largest home language community"
+    },
 {
 "name": "isiXhosa",
 "role": "Major language with expanding content"

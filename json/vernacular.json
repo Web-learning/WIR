@@ -1,0 +1,199 @@
+{
+"branding": {
+"footer": {
+"text": "Vernacular Wikipedia in South Africa"
+}
+},
+"slides": [
+{
+"type": "cover",
+"title": "Vernacular Wikipedia in South Africa",
+"subtitle": "Preserving Knowledge Through Indigenous Languages"
+},
+{
+"type": "agenda",
+"title": "Presentation Overview",
+"items": [
+"What is Vernacular Wikipedia?",
+"South Africa's Language Landscape",
+"Current Indigenous Language Wikipedias",
+"Challenges and Opportunities",
+"Community Growth Strategies",
+"Future Vision"
+]
+},
+{
+"type": "two-column-content",
+"title": "Why Vernacular Wikipedia Matters",
+"leftColumn": {
+"heading": "Knowledge Access",
+"body": [
+"Allows people to learn in their home language",
+"Improves digital inclusion",
+"Supports multilingual education",
+"Makes information accessible to wider audiences"
+]
+},
+"rightColumn": {
+"heading": "Cultural Preservation",
+"body": [
+"Documents local knowledge and traditions",
+"Strengthens language vitality",
+"Promotes linguistic diversity online",
+"Preserves heritage for future generations"
+]
+}
+},
+{
+"type": "statistics",
+"title": "South Africa at a Glance",
+"statistics": [
+{
+"value": "12",
+"label": "Official Languages"
+},
+{
+"value": "60M+",
+"label": "Population"
+},
+{
+"value": "Millions",
+"label": "Potential Indigenous Language Readers"
+},
+{
+"value": "Growing",
+"label": "Wikipedia Contributor Base"
+}
+]
+},
+{
+"type": "theme",
+"title": "South African Languages on Wikipedia",
+"members": [
+{
+"name": "isiZulu",
+"role": "Largest home language community"
+},
+{
+"name": "isiXhosa",
+"role": "Major language with expanding content"
+},
+{
+"name": "Afrikaans",
+"role": "One of the most developed African-language Wikipedias"
+},
+{
+"name": "Sesotho",
+"role": "Growing contributor community"
+},
+{
+"name": "Setswana",
+"role": "Regional and cross-border significance"
+},
+{
+"name": "Xitsonga",
+"role": "Emerging digital language presence"
+}
+]
+},
+{
+"type": "two-column-content",
+"title": "Current Challenges",
+"leftColumn": {
+"heading": "Content Challenges",
+"body": [
+"Limited number of articles",
+"Knowledge gaps in local topics",
+"Need for reliable language resources",
+"Translation workload"
+]
+},
+"rightColumn": {
+"heading": "Community Challenges",
+"body": [
+"Small editor communities",
+"Limited awareness of editing opportunities",
+"Digital literacy barriers",
+"Volunteer retention"
+]
+}
+},
+{
+"type": "timeline",
+"title": "Building a Sustainable Future",
+"timeline": [
+{
+"quarter": "Phase 1",
+"milestone": "Awareness campaigns in schools and universities"
+},
+{
+"quarter": "Phase 2",
+"milestone": "Editor training and community workshops"
+},
+{
+"quarter": "Phase 3",
+"milestone": "Content creation focused on local knowledge"
+},
+{
+"quarter": "Phase 4",
+"milestone": "Long-term partnerships and growth"
+}
+]
+},
+{
+"type": "quote",
+"title": "A Shared Vision",
+"quote": "Knowledge becomes truly free when people can access it in the language they understand best.",
+"author": "Wikipedia Community Principle"
+},
+{
+"type": "two-column-content",
+"title": "Opportunities for Impact",
+"leftColumn": {
+"heading": "Education",
+"body": [
+"Student editing programs",
+"Language preservation projects",
+"Research collaborations",
+"Open educational resources"
+]
+},
+"rightColumn": {
+"heading": "Technology",
+"body": [
+"Mobile-first participation",
+"AI-assisted translation tools",
+"Digital language resources",
+"Improved discoverability of local content"
+]
+}
+},
+{
+"type": "statistics",
+"title": "Success Indicators",
+"statistics": [
+{
+"value": "+Articles",
+"label": "Growth in local-language content"
+},
+{
+"value": "+Editors",
+"label": "Active volunteer contributors"
+},
+{
+"value": "+Readers",
+"label": "People accessing knowledge"
+},
+{
+"value": "+Partnerships",
+"label": "Educational and cultural institutions"
+}
+]
+},
+{
+"type": "closing",
+"title": "Thank You",
+"subtitle": "Together we can expand free knowledge in South Africa's languages."
+}
+]
+}

@@ -1,0 +1,80 @@
+{
+  "phases": {
+    "before": {
+      "number": "01",
+      "phase": "PHASE ONE",
+      "title": "Before",
+      "meta": "BEGINNING",
+      "description": "Everything starts with preparation. Build relationships, prepare Wikidata and Commons, and make sure your team is ready before the conference begins.",
+      "page": {
+        "label": "PHASE ONE / BEFORE THE EVENT",
+        "title": "Planning to Wikify",
+        "lead": "The earlier you can plan your Wikifying event, the better. Preparation makes it easier to work with organisers, identify people and subjects of interest, prepare Wikidata and Commons, and make the most of your time at the conference.",
+        "cards": [
+          {
+            "number": "01",
+            "title": "Plan",
+            "description": "Choose the event, consider timing and location, arrange travel and accommodation funding, and determine how many people you will need."
+          },
+          {
+            "number": "02",
+            "title": "Organisers",
+            "description": "Pitch the value of having a Wikimedian present. Discuss tables, badges, registration, workshops, posters and conference communications."
+          },
+          {
+            "number": "03",
+            "title": "Communications",
+            "description": "Confirm your space, attendee information, permissions, photography arrangements and how Wikimedia participation will be publicised."
+          },
+          {
+            "number": "04",
+            "title": "Wikidata",
+            "description": "Prepare the conference item, organisers, speakers, participants, awards and relevant identifiers before arriving."
+          },
+          {
+            "number": "05",
+            "title": "Commons",
+            "description": "Create event categories, identify people who need photographs and prepare structured data for uploads."
+          },
+          {
+            "number": "06",
+            "title": "Engage Early",
+            "description": "Contact priority attendees, arrange meetings, promote your presence and make sure participants know what the Wikimedia team will be doing."
+          }
+        ],
+        "checklist": [
+          "Create an on-Wiki project page",
+          "Confirm organisers and conference contacts",
+          "Prepare Wikidata items",
+          "Create the Commons event category",
+          "Build your photography hit list",
+          "Contact priority attendees"
+        ]
+      }
+    },
+    "during": {
+      "number": "02",
+      "phase": "PHASE TWO",
+      "title": "During",
+      "meta": "TRANSFORMATION",
+      "description": "Connect with researchers, document the event, photograph participants and create meaningful Wikimedia relationships.",
+      "page": {
+        "label": "PHASE TWO / DURING THE EVENT",
+        "title": "During the Event",
+        "lead": "Meet researchers, document the conference, collect photographs and build relationships with specialists and Wikimedia communities."
+      }
+    },
+    "after": {
+      "number": "03",
+      "phase": "PHASE THREE",
+      "title": "After",
+      "meta": "NEW BEGINNING",
+      "description": "Process the photographs, improve Wikidata, share outcomes and turn conference connections into lasting collaboration.",
+      "page": {
+        "label": "PHASE THREE / AFTER THE EVENT",
+        "title": "After the Event",
+        "lead": "Process photographs, improve Wikidata, document the outcomes and turn conference connections into lasting collaboration."
+      }
+    }
+  }
+}

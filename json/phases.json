@@ -5,7 +5,7 @@
       "phase": "PHASE ONE",
       "title": "Before",
       "meta": "BEGINNING",
-      "description": "Everything starts with preparation. Are you signed onto Wikipedia, have you uploaded your profile pic to Wikimedia Commons, and made sure your team is ready before the meeting begins.",
+      "description": "Everything starts with preparation. Are you signed onto Wikipedia, have you uploaded your profile pic to Wikimedia Commons, and made sure your team can see your badge before the meeting begins.",
       "page": {
         "label": "PHASE ONE / BEFORE THE EVENT",
         "title": "Planning to Wikify",
@@ -57,7 +57,7 @@
       "phase": "PHASE TWO",
       "title": "During",
       "meta": "TRANSFORMATION",
-      "description": "Connect with researchers, document the event, photograph participants and create meaningful Wikimedia relationships.",
+      "description": "Connect with people at the meetup, try to document the event, photograph participants and create meaningful Wikimedia relationships.",
       "page": {
         "label": "PHASE TWO / DURING THE EVENT",
         "title": "During the Event",

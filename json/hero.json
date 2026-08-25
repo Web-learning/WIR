@@ -1,9 +1,12 @@
 {
   "watermark": "W",
-  "content": {
+  "hero": {
     "eyebrow": "Scholars • Curators • Archivists • Musicians",
-    "title": "Wikify your Conference",
-    "title_link": "",
+    "title": {
+      "before": "Wikify your",
+      "highlight": "Conference",
+      "link": ""
+    },
     "subtitle": "A GUIDE FOR WIKIPEDIANS."
   },
   "author": {

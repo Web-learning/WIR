@@ -1,5 +1,5 @@
 const jsonURL =
-  "https://raw.githubusercontent.com/Web-learning/WIR/refs/heads/main/json/hero.json";
+  "./json/hero.json";
 
 
 fetch(jsonURL)

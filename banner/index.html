@@ -10,20 +10,27 @@
 </head>
 
 <body>
+<horizontalnav>
+      <!-- Always visible items in the nav bar -->
+      <h1>
+        Wikipedian
+        <span>Alliance</span>
+      </h1>
 
-<section class="hero">
-  <div class="hero-content">
-
-    <p id="hero-eyebrow"></p>
-
-    <h1 id="hero-title"></h1>
-
-    <p id="hero-description"></p>
-
-    <a id="hero-button" href="#"></a>
-
-  </div>
-</section>
+      <!-- The hamburger menu -->
+      <label for="menu" tabindex="0">    
+        <div class="patty">
+        Before<br>During<br>After
+        </div>
+      </label>
+      <input id="menu" type="checkbox" />
+      <!-- The collapsable menu -->
+      <ul>
+        <li><a href="">Before</a></li>
+        <li><a href="">During </a></li>
+        <li><a href="">After</a></li>
+      </ul>
+    </horizontalnav>
 
 <script src="./script.js"></script>
 </body>

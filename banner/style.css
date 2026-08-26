@@ -1,0 +1,156 @@
+```css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background: #111111;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 100vh;
+
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url("https://images.unsplash.com/photo-1519608487953-e999c86e7455")
+    center / cover no-repeat;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAVIGATION */
+
+.navbar {
+  width: 100%;
+  padding: 25px 7%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
+
+/* HERO CONTENT */
+
+.hero-content {
+  width: min(900px, 90%);
+  margin: auto;
+
+  text-align: center;
+}
+
+.hero-content p:first-child {
+  color: #60a5fa;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 {
+  font-size: clamp(3rem, 8vw, 7rem);
+  line-height: 0.95;
+  margin-bottom: 25px;
+}
+
+#hero-description {
+  max-width: 650px;
+  margin: 0 auto 35px;
+
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #dddddd;
+}
+
+.hero-button {
+  display: inline-block;
+
+  padding: 15px 30px;
+
+  background: #2563eb;
+  color: white;
+
+  text-decoration: none;
+  border-radius: 8px;
+
+  font-weight: bold;
+
+  transition: 0.2s;
+}
+
+.hero-button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+/* SECTIONS */
+
+.section {
+  min-height: 50vh;
+  padding: 100px 7%;
+
+  background: #181818;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.section p {
+  max-width: 650px;
+  color: #bbbbbb;
+  line-height: 1.7;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .hero-content h1 {
+    font-size: 3.5rem;
+  }
+}
+```

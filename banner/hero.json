@@ -1,7 +1,7 @@
 {
-  "eyebrow": "Welcome to my website",
-  "title": "Build something amazing.",
-  "description": "A simple static website powered by HTML, CSS, JavaScript and JSON.",
+  "eyebrow": "Welcome",
+  "title": "Build Something Amazing",
+  "description": "This content is coming from hero.json.",
   "button": {
     "text": "Learn More",
     "url": "#about"

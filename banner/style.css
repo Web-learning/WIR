@@ -172,3 +172,34 @@ nav a:focus {
     0 6px 16px rgba(0,0,0,0.3);
 }
 
+/* =========================
+Visual Elements
+========================= */
+
+ 
+    .globe {
+      position: absolute;
+      width: 42%;
+      aspect-ratio: 1;
+      right: -12%;
+      top: -25%;
+      border-radius: 50%;
+      background: var(--globe);
+      opacity: 0.85;
+      box-shadow: var(--shadow);
+ 
+    }
+
+/* Large decorative letter */
+    .watermark {
+      position: absolute;
+      z-index: 2;
+      right: -8%;
+      top: -8%;
+      font-family: "DM Serif Display", Georgia, serif;
+      font-size: clamp(180px, 30vw, 500px);
+      line-height: 1;
+      color: var(--primary); 
+      user-select: none;
+    }
+

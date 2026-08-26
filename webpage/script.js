@@ -1,5 +1,5 @@
 const jsonURL =
-  "./json/hero.json";
+  "hero.json";
 
 
 fetch(jsonURL)

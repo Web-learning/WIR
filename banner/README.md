@@ -9,3 +9,31 @@ This is a simple two color banner that I put together for a non existent organis
 ## Features
 - The background colours in the banner are located in the root folder. Changing the primary and secondary colours changes the whole banner
 - The banner has three navigation buttons. These colours are also based on the root folder.
+## Code
+``` html
+<horizontalnav>
+      <!-- Always visible items in the nav bar -->
+      <h1>
+        Wikipedian
+        <span>Alliance</span>
+      </h1>
+
+      <!-- The hamburger menu -->
+      <label for="menu" tabindex="0">    
+        <div class="patty">
+        Before<br>During<br>After
+        </div>
+      </label>
+      <input id="menu" type="checkbox" />
+      <!-- The collapsable menu -->
+      <ul>
+        <li><a href="">Before</a></li>
+        <li><a href="">During </a></li>
+        <li><a href="">After</a></li>
+      </ul>
+    </horizontalnav>
+```
+---
+__Explanation :)__
+
+- __[Weblearning](https://weblearning.co.za/blog/4-months-into-wir/)__ - How to create a banner

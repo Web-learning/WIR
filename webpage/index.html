@@ -1,1 +1,70 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+    <horizontalnav>
+      <!-- Always visible items in the nav bar -->
+      <h1>
+        Wikipedian
+        <span>Alliance</span>
+      </h1>
+
+      <!-- The hamburger menu -->
+      <label for="menu" tabindex="0">    
+        <div class="patty">
+        Before<br>During<br>After
+        </div>
+      </label>
+      <input id="menu" type="checkbox" />
+      <!-- The collapsable menu -->
+      <ul>
+        <li><a href="">Before</a></li>
+        <li><a href="">During </a></li>
+        <li><a href="">After</a></li>
+      </ul>
+    </horizontalnav>
+
+<main class="presentation">
+
+    <div class="globe"></div>
+
+    <div class="hero"></div>
+
+    <div class="watermark" id="watermark"></div>
+
+    <div class="content">
+
+  <div class="eyebrow" id="eyebrow"></div>
+
+  <h1>
+    <a href="" id="hero-link">
+      <span id="title-before"></span>
+      <span id="title-highlight"></span>
+    </a>
+  </h1>
+
+  <p class="subtitle" id="subtitle"></p>
+
+</div>
+
+    <div class="bottom-line">
+
+  <span class="dot"></span>
+
+  <span>
+    By <span id="author-name"></span>
+  </span>
+
+</div>
+
+</main>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "eyebrow": "Welcome to my website",
+  "title": "Build something amazing.",
+  "description": "A simple static website powered by HTML, CSS, JavaScript and JSON.",
+  "button": {
+    "text": "Learn More",
+    "url": "#about"
+  }
+}

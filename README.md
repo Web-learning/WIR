@@ -5,3 +5,4 @@ Presentations from the WIR
 * Want to learn about [creating a Wikipedia Page?](https://web-learning.github.io/WIR/onboarding/)
 * Want to learn about [creating a banner?](https://web-learning.github.io/WIR/banner/)
 * Want to learn about [creating a pretty Web Page?](https://web-learning.github.io/WIR/webpage/)
+* Want to learn about [telling your own story?](https://web-learning.github.io/WIR/story/takahashistory)

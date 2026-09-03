@@ -49,9 +49,9 @@ User:Derek J Moore
 For knowledge sharing
 ---
 # Spectacular Vernacular
-  YEBO (ZU.wikipedia.org)
-  JA (AF.wikipedia.org)
-  EYA (ST.wikipedia.org)
+* YEBO ([ZU.wikipedia.org](https://zu.wikipedia.org/wiki/Ikhasi_Elikhulu))
+* JA ([AF.wikipedia.org](https://af.wikipedia.org/wiki/Tuisblad))
+* EYA ([ST.wikipedia.org](https://st.wikipedia.org/wiki/Leqephe_la_pele))
 ---      
 # Practice markdown and
 Apply the https://en.wikipedia.org/wiki/Takahashi_method
@@ -73,7 +73,7 @@ Headers start first with #
 ---
 # #3
 Indent code with 2 spaces
-  ArtAndFeminism/Resources
+   ArtAndFeminism/Resources
 ---
 # Inspiration drawn from 
-      https://github.com/trikita/slide-html
+   https://github.com/trikita/slide-html

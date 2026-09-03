@@ -15,48 +15,59 @@ consists of six words
 
 ---
 
-#“Therefore, since brevity is the soul of wit"
+# “Therefore, since brevity is the soul of wit"
 
 ---
 
 # SIX WORDS
 Derek, remember six words!
+
 ---
-      #“...brevity is the soul of wit"
-     ---
-     #That's better Derek.
-      You may begin!
-     ---      
-      #On Wikipedia,
-      I'm *User:Derek J Moore*
-     ---
-      #I work asynchronously
-      on Wikimedia projects
-     ---      
-      #Conference Wikifying
-      is a *"markdown"* task
-     ---
-      #Semantic Technologies
-      help machines understand data
-     ---      
-      #OPEN EDUCATION RESOURCEs
-      (OER) offers exemplars
-     ---      
-      #OPEN ACCESS PUBLISHING
-      (OEP) offers expertise
-     ---      
-      #Scholarship Award
-      Wikimania 2026 in Paris
-     ---
-      #Used MARKDOWN to
-      *"WIKIFY"* my story.
-     ---
-      #Sandbox:
-        en.wikipedia.org
-        User:Derek J Moore
-     ---      
-      #Markdown is CRUCIAL
-      for knowledge sharing
+
+# “...brevity is the soul of wit"
+
+---
+
+# That's better Derek.
+
+You may begin!
+
+---      
+# On Wikipedia,
+
+I'm known as *User:Derek J Moore*
+
+---
+
+# I work asynchronously
+on Wikimedia Projects
+
+---      
+
+# Conference Wikifying
+is a *"markdown"* task
+---
+# Semantic Technologies
+help machines understand data
+---      
+# OPEN EDUCATION RESOURCEs
+(OER) offers exemplars
+---      
+# OPEN ACCESS PUBLISHING
+(OEP) offers expertise
+---      
+# Scholarship Award
+Wikimania 2026 in Paris
+---
+# Used MARKDOWN to
+*"WIKIFY"* my story.
+---
+# Sandbox:
+en.wikipedia.org
+User:Derek J Moore
+---      
+# Markdown is CRUCIAL
+for knowledge sharing
      ---
       #Spectacular Vernacular
         YEBO (ZU.wikipedia.org)

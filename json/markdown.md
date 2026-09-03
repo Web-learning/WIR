@@ -1,7 +1,28 @@
-#THE NEXT CHAPTER
-Takahashi-style stories
+# Introduction
+
+Welcome to the presentation.
+
 ---
-#Takahashi is
+
+# The Problem
+
+Here is the problem we want to solve.
+
+---
+
+# The Solution
+
+Here is our proposed solution.
+
+# THE NEXT CHAPTER
+
+---
+
+# Takahashi-style stories
+
+---
+
+# Takahashi is
 a storytelling method
      ---
       #Every slide

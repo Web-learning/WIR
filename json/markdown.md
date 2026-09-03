@@ -1,54 +1,33 @@
 # THE NEXT CHAPTER
-
 Takahashi-style stories
-
 ---
-
 # Takahashi is
-
-a storytelling method
-
+A storytelling method
 ---
 # Every slide
-
-consists of six words
-
+Consists of six words
 ---
-
 # “Therefore, since brevity is the soul of wit"
-
 ---
-
 # SIX WORDS
 Derek, remember six words!
-
 ---
-
 # “...brevity is the soul of wit"
-
 ---
-
 # That's better Derek.
-
 You may begin!
-
 ---      
 # On Wikipedia,
-
-I'm known as *User:Derek J Moore*
-
+I'm known as *[User:Derek J Moore](https://en.wikipedia.org/wiki/User:Derek_J_Moore)*
 ---
-
 # I work asynchronously
-on Wikimedia Projects
-
+On Wikimedia Projects
 ---      
-
 # Conference Wikifying
-is a *"markdown"* task
+Is a *"markdown"* task
 ---
 # Semantic Technologies
-help machines understand data
+Help machines understand data
 ---      
 # OPEN EDUCATION RESOURCEs
 (OER) offers exemplars
@@ -67,7 +46,7 @@ en.wikipedia.org
 User:Derek J Moore
 ---      
 # Markdown is CRUCIAL
-for knowledge sharing
+For knowledge sharing
 ---
 # Spectacular Vernacular
   YEBO (ZU.wikipedia.org)
@@ -75,47 +54,26 @@ for knowledge sharing
   EYA (ST.wikipedia.org)
 ---      
 # Practice markdown and
-apply the https://en.wikipedia.org/wiki/Takahashi_method
+Apply the https://en.wikipedia.org/wiki/Takahashi_method
 ---      
 # Please share
-your own *markdown story*
+Your own *markdown story*
 ---
 # 350 Languages
-are available for *Wikification* 
+Are available for *Wikification* 
 ---      
-# Be message focussed 
-Learn 5 markup rules
+# Message focussed 
+With 3 markup rules
 ---      
 # #1
-Each paragraph is a slide
+Each slide is separated by ---
 ---
 # #2
 Headers start first with #
 ---
 # #3
-Emphasize *important* words with **asterisks**
----
-# #4
 Indent code with 2 spaces
   ArtAndFeminism/Resources
 ---
-# #5
-Start with a dot to disable markup 
-(headlines, code or blank lines)
----
-      ↵  = new slide
-      .# = headline
-      ** = emphasize
-      ␣␣ = monospace
-      .. = escape
----
-# Print mode
-You can print slide thumbnails
-to practice your speech
----
-      .
-      .
-      .
-     ---
-# Credit to 
+# Inspiration drawn from 
       https://github.com/trikita/slide-html

@@ -1,38 +1,27 @@
-# Introduction
-
-Welcome to the presentation.
-
----
-
-# The Problem
-
-Here is the problem we want to solve.
-
----
-
-# The Solution
-
-Here is our proposed solution.
-
 # THE NEXT CHAPTER
 
----
-
-# Takahashi-style stories
+Takahashi-style stories
 
 ---
 
 # Takahashi is
+
 a storytelling method
-     ---
-      #Every slide
-      consists of six words
-     ---
-      #“Therefore, since brevity is the soul of wit"
-     ---
-      #SIX WORDS
-      Derek, remember six words!
-     ---
+
+---
+# Every slide
+
+consists of six words
+
+---
+
+#“Therefore, since brevity is the soul of wit"
+
+---
+
+# SIX WORDS
+Derek, remember six words!
+---
       #“...brevity is the soul of wit"
      ---
      #That's better Derek.

@@ -72,8 +72,8 @@ Each slide is separated by ---
 Headers start first with #
 ---
 # #3
-Indent code with 2 spaces
-   ArtAndFeminism/Resources
+Hyperlinks use square brackets "[   ]" followed by "(  )" 
+   
 ---
 # Inspiration drawn from 
    https://github.com/trikita/slide-html

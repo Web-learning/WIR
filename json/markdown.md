@@ -1,8 +1,8 @@
-     #THE NEXT CHAPTER
-      Takahashi-style stories
-      ---
-      #Takahashi is
-      a storytelling method
+#THE NEXT CHAPTER
+Takahashi-style stories
+---
+#Takahashi is
+a storytelling method
      ---
       #Every slide
       consists of six words

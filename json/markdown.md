@@ -68,56 +68,54 @@ User:Derek J Moore
 ---      
 # Markdown is CRUCIAL
 for knowledge sharing
-     ---
-      #Spectacular Vernacular
-        YEBO (ZU.wikipedia.org)
-        JA (AF.wikipedia.org)
-        EYA (ST.wikipedia.org)
-     ---      
-      #Practice markdown and
-      apply the https://en.wikipedia.org/wiki/Takahashi_method
-     ---      
-      #Please share
-      your own *markdown story*
-     ---
-      #350 Languages
-      to *wikify* your tale
-     ---      
-      #Focus on your message
-      Learn 5 markup rules
-      to make the slides look great
-     ---      
-      # #1
-      Each paragraph is a slide
-     ---
-      # #2
-      Headers start with #
-     ---
-      # #3
-      Emphasize *words* with **asterisks**
-     ---
-      # #4
-      Indent code with 2 spaces
-        ArtAndFeminism/Resources
-     ---
-      # #5
-      Lines starting with a dot
-      disable markup such as
-      headlines, code or blank lines
-     ---
+---
+# Spectacular Vernacular
+  YEBO (ZU.wikipedia.org)
+  JA (AF.wikipedia.org)
+  EYA (ST.wikipedia.org)
+---      
+# Practice markdown and
+apply the https://en.wikipedia.org/wiki/Takahashi_method
+---      
+# Please share
+your own *markdown story*
+---
+# 350 Languages
+are available for *Wikification* 
+---      
+# Be message focussed 
+Learn 5 markup rules
+---      
+# #1
+Each paragraph is a slide
+---
+# #2
+Headers start first with #
+---
+# #3
+Emphasize *important* words with **asterisks**
+---
+# #4
+Indent code with 2 spaces
+  ArtAndFeminism/Resources
+---
+# #5
+Start with a dot to disable markup 
+(headlines, code or blank lines)
+---
       ↵  = new slide
       .# = headline
       ** = emphasize
       ␣␣ = monospace
       .. = escape
-     ---
-      # Print mode
-      You can print slide thumbnails
-      to practice your speech
-     ---
+---
+# Print mode
+You can print slide thumbnails
+to practice your speech
+---
       .
       .
       .
      ---
-      # Much thanks
+# Credit to 
       https://github.com/trikita/slide-html

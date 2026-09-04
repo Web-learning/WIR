@@ -1,4 +1,4 @@
-<img src="" width="50%" height="50%">
+<img src="https://github.com/user-attachments/assets/46d9dd40-af65-48b0-87ec-cb471c39ed41" width="50%" height="50%">
 
 ## Table of contents
 - [Introduction](#introduction) to web based slideshows

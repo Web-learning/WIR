@@ -1,7 +1,8 @@
 
-``` mermaid
-   flowchart LR
-   A --> B
+```
+mermaid
+flowchart LR
+A --> B
 
 ## Introduction
 ## Features

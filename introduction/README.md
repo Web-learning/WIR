@@ -1,9 +1,24 @@
+## Introduction
+## Features
 ## Schema
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+## Noted code
+## Explanation
 
+ ───────────────────────────────────┐
+                                    ▼
+                            Web presentation
+                                    ▼
+                              Export to PDF
+────────────────────────────────────┘
+                                    ▼
+                                    │
+                                html2canvas
+                                    │
+                                    ▼
+                                PNG images
+                                    │
+                                    ▼
+                                  jsPDF
+                                    │
+                                    ▼
+                              (insert title).pdf

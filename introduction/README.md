@@ -5,7 +5,7 @@
 - [Features](#features)
 
 ## Introduction
-These slideshows are intended to show how navigation, message and the presentation layers can be separated from each other. Just like a website has the HTML, CSS and javascript in its structure.  
+This slideshow is an attempt to show how navigation, message and the presentation layers can be separated from each other. Just like a website has the HTML, CSS and javascript in its structure.  
 <html>
 <head></head>
 <body></body>
@@ -14,10 +14,11 @@ and you only have to add a
 * a style sheet to the HEAD to give the document a look and feel  
 * a div with an ID to the body so that you can play with a dom  
 * javascript right at the at the end of the body tag to invoke the javascript  
-This means that a presentation be quickly made in text and then the other parts 
-## Features
+So can a presentation be quickly made in text and then the other components automatically format the presentation 
+This is especially useful if you are working on mobile devices 
 
-A slideshow needs to move forwards and backwards and previous and next buttons make that movement possible 
+## Features
+This slideshow moves forwards and backwards and the previous and next buttons make that movement possible 
         ←       1 / 6       →
      Previous             Next
 
@@ -32,9 +33,10 @@ Each slide looks slightly different and markup or markdown controls the presenta
 * QUOTE >  Testimonials/quotes
 * CONCLUSION > closing	and credit slide
 
+And there is a left hand navigation that allows the user to see where they are. 
 Content can lolocated in the HTML or javascript. And it can also be in an external file 
 
-## Code
+## The Code
 ┌──────────────┐
 │ OPEN HTML    │
 ┌──────────────┐
@@ -51,6 +53,9 @@ Content can lolocated in the HTML or javascript. And it can also be in an extern
 │ CLOSE HTML   │
 └──────────────┘
 
+# The challenges
+The presentation looks good on a large screen but there are many things that do not work on a small screen. Including the left hand navigation and the visibility of text way down the screen. 
+
 __Explanation :)__
 
-To be added
+To be added on Weblearning

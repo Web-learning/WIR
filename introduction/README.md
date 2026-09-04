@@ -1,7 +1,7 @@
 
 ```mermaid
 flowchart LR
-Presentation --> B --> C --> D
+Presentation --> Export to PDF --> C --> D
 ```
 ## Introduction
 ## Features

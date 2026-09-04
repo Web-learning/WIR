@@ -1,7 +1,7 @@
 
 ```mermaid
 flowchart LR
-Presentation --> Export to PDF --> C --> D
+Presentation --> Export --> HTML2Canvas --> (insert title).pdf
 ```
 ## Introduction
 ## Features

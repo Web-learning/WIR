@@ -1,4 +1,5 @@
 ## Schema
+```mermaid
  ───────────────────────────────────┐
                                     ▼
                             Web presentation

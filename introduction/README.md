@@ -1,7 +1,7 @@
 ## Introduction
 ## Features
 ## Schema
-```mermaid
+``` mermaid
    flowchart LR
    A --> B
 

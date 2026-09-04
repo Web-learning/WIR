@@ -1,6 +1,10 @@
 ## Introduction
 ## Features
 ## Schema
+```mermaid
+   flowchart LR
+   A --> B
+
 ## Noted code
 ## Explanation
 

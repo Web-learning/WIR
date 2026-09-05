@@ -9,7 +9,7 @@
 - [Explanation](#explanation)
 
 ## Introduction
-This muted and simple presentation (text #FFFFF and background #AEAFF1) serves as an introduction to a project.
+This muted and simple presentation (text #FFFFF and background #AEAFF1) serves as an introduction to a short term project.
 ## Features
 Websites have lost their semantic meaning with an excess of div togs just used for styling. This page uses two div tags. One for the presentation and the other to show a print this button. The button uses a library called [HTML 2 Canvas]([html2canvas](https://html2canvas.hertzen.com/)). Developed by Niklas von Hertzen, the library permits the reader to take "screenshots" of the presentation with Javascript.  
 ## Schema

@@ -1,7 +1,6 @@
 ![image width="50%" height="50%"](https://github.com/user-attachments/assets/f201bfe9-4770-4df7-b74e-2460ed20cde5)
 
 
-<img src="https://github.com/user-attachments/assets/f201bfe9-4770-4df7" width="50%" height="50%">
 
 ## Table of contents
 - [Introduction](#introduction)

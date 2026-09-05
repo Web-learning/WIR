@@ -1,0 +1,19 @@
+{
+"project": {
+"eyebrow": "PROJECT PROPOSAL",
+"title": "Executive",
+"titleAccent": "Summary",
+"slideNumber": "01"
+},
+"summary": {
+"primary": "We are a team committed to creating practical, sustainable solutions that respond to the needs of our community.",
+"description": "Our proposal focuses on [Project Name], an initiative designed to address [key problem] by providing [solution or service]. Through targeted activities, community participation and measurable outcomes, the project will create meaningful and lasting impact."
+},
+"impact": {
+"icon": "✦",
+"title": "Why It Matters",
+"description": "This project will help improve access, opportunity and quality of life for the people we serve.",
+"label": "PROPOSED IMPACT",
+"value": "Community • Opportunity • Change"
+}
+}

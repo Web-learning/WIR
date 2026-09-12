@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Major developments around the world",
+    "description": "The latest international developments and events.",
+    "image": "https://example.com/images/world.jpg",
+    "category": "World",
+    "url": "https://en.wikipedia.org/"
+  },
+  {
+    "title": "Technology news and innovation",
+    "description": "The latest developments in technology and science.",
+    "image": "https://example.com/images/technology.jpg",
+    "category": "Technology",
+    "url": "https://en.wikipedia.org/"
+  },
+  {
+    "title": "Business and economic developments",
+    "description": "Updates from markets, companies and the global economy.",
+    "image": "https://example.com/images/business.jpg",
+    "category": "Business",
+    "url": "https://en.wikipedia.org/"
+  },
+  {
+    "title": "Latest sports news",
+    "description": "The latest results, events and sporting stories.",
+    "image": "https://example.com/images/sport.jpg",
+    "category": "Sport",
+    "url": "https://en.wikipedia.org/"
+  }
+]

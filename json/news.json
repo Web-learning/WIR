@@ -1,10 +1,10 @@
 [
   {
-    "title": "Major developments around the world",
-    "description": "The latest international developments and events.",
+    "title": "Images Wanted",
+    "description": "A set of stylesheets that has been published for Heritage Month, accompanied by a function called “Images Wanted”, or “Upload images”. The function can be installed in a Sandbox.",
     "image": "https://example.com/images/world.jpg",
     "category": "World",
-    "url": "https://en.wikipedia.org/"
+    "url": "https://weblearning.co.za/blog/images-wanted/"
   },
   {
     "title": "Technology news and innovation",

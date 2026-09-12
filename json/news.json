@@ -3,15 +3,15 @@
     "title": "Images Wanted",
     "description": "A set of stylesheets that has been published for Heritage Month, accompanied by a function called “Images Wanted”, or “Upload images”. The function can be installed in a Sandbox.",
     "image": "https://example.com/images/world.jpg",
-    "category": "World",
+    "category": "Design",
     "url": "https://weblearning.co.za/blog/images-wanted/"
   },
   {
-    "title": "Technology news and innovation",
-    "description": "The latest developments in technology and science.",
+    "title": "A post about lampposts",
+    "description": "Specs for the faulty street lamp app. that can be mapped on a mapping service like leaflet. With Geolocation, photograph uploads and comments. ",
     "image": "https://example.com/images/technology.jpg",
-    "category": "Technology",
-    "url": "https://en.wikipedia.org/"
+    "category": "Design",
+    "url": "https://weblearning.co.za/blog/a-post-about-lamp-posts/"
   },
   {
     "title": "Business and economic developments",

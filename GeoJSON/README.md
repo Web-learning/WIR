@@ -4,7 +4,7 @@
 * * Three examples of general purpose maps on Wikipedia
   * <a href="https://en.wikipedia.org/wiki/Johannesburg_City_Library" target="\_blank">Johannesburg City Library (JCL)</a>
   * <a href="https://en.wikipedia.org/wiki/Randburg_Library" target="\_blank">Randburg Library (RL)</a>
-  * Weltevreden Public Library (WPL) 
+  * <a href="https://en.wikipedia.org/wiki/Weltevredenpark_Public_Library" target="\_blank"> Weltevreden Public Library (WPL)</a>
 ** Three recipes for making general purpose maps elsewhere
    *  With Leaflet
    *  With Mapbox

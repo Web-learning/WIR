@@ -5,8 +5,9 @@
   * <a href="https://en.wikipedia.org/wiki/Johannesburg_City_Library" target="\_blank">Johannesburg City Library (JCL)</a>
   * <a href="https://en.wikipedia.org/wiki/Randburg_Library" target="\_blank">Randburg Library (RL)</a>
   * <a href="https://en.wikipedia.org/wiki/Weltevredenpark_Public_Library" target="\_blank"> Weltevreden Public Library (WPL)</a>
-* *  Three recipes for making general purpose maps
-  * On Leaflet
+* *  Four recipes for making general purpose maps
+  * <a href="https://en.wikipedia.org/wiki/Template:Location_map/Creating_a_new_map_definition" target="\_blank"> On Wikipedia</a>
+  * <a href="https://codepen.io/editor/Web-learning-the-bold/pen/01a09c48-016f-77c7-a3d8-2e4c64995a80" target="\_blank">With Leaflet</a>
   * On Mapbox
   * With Google Maps
 * Four Examples of thematic maps (family, buildings, <a href="https://fr.wikipedia.org/wiki/Utilisateur:Derek_J_Moore/Brouillon" target="\_blank">Paris</a>)

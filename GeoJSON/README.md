@@ -9,6 +9,6 @@
   * On Leaflet
   * On Mapbox
   * With Google Maps
-* Four Examples of thematic maps (family, buildings, location)
+* Four Examples of thematic maps (family, buildings, <a href="https://fr.wikipedia.org/wiki/Utilisateur:Derek_J_Moore/Brouillon" target="\_blank">Paris</a>)
 * Challenge: Making a tour guide map
 * Up next

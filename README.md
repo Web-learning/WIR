@@ -8,3 +8,4 @@ Presentations from the WIR
 * Practice | Want to play around in your sandbox?
 * Graphic Design | Want to learn about [creating a banner?](https://web-learning.github.io/WIR/banner/)
 * Webpage development | Want to learn about [creating a pretty Web Page?](https://web-learning.github.io/WIR/webpage/)
+* [Book Cover](https://web-learning.github.io/WIR/book/dist/)

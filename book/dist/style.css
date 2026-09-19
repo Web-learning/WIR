@@ -1,0 +1,293 @@
+:root {
+  --paper: #f4f1e8;
+  --ink: #171717;
+  --muted: #6b6963;
+  --accent: #b52b25;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+
+  background:
+    radial-gradient(circle at 20% 20%, #d9d5ca 0, transparent 35%),
+    #bdbab2;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+/* --------------------------------
+   BOOK COVER
+-------------------------------- */
+
+.book-content {
+  position: relative;
+
+  width: min(520px, 90vw);
+  aspect-ratio: 2 / 3;
+
+  min-height: 720px;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 48px 42px 38px;
+
+  color: var(--white);
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.78) 0%,
+      rgba(0, 0, 0, 0.25) 35%,
+      rgba(0, 0, 0, 0.35) 65%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url("https://upload.wikimedia.org/wikipedia/commons/e/e9/Wikimedia_and_me.jpg")
+      center / cover no-repeat;
+
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.35),
+    0 5px 15px rgba(0, 0, 0, 0.2);
+
+  border-radius: 3px;
+}
+
+/* Subtle paper/print texture */
+
+.book-content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  background:
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.018) 0px,
+      rgba(255, 255, 255, 0.018) 1px,
+      transparent 1px,
+      transparent 4px
+    );
+
+  mix-blend-mode: overlay;
+}
+
+/* Red spine/accent line */
+
+.book-content::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 16px;
+
+  width: 2px;
+
+  background: rgba(255, 255, 255, 0.35);
+
+  box-shadow: 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* --------------------------------
+   HEADER
+-------------------------------- */
+
+.book-header {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.book-header > div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* --------------------------------
+   EYEBROW
+-------------------------------- */
+
+.eyebrow {
+  order: 1;
+
+  display: block;
+
+  margin-bottom: 22px;
+
+  color: rgba(255, 255, 255, 0.88);
+
+  font-family:
+    "Arial Narrow",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+  font-size: 0.72rem;
+  font-weight: 700;
+
+  letter-spacing: 0.18em;
+  line-height: 1.4;
+
+  text-transform: uppercase;
+}
+
+/* --------------------------------
+   TITLE
+-------------------------------- */
+
+#bookTitle {
+  order: 2;
+
+  margin: 0;
+
+  max-width: 100%;
+
+  color: var(--white);
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size: clamp(3.2rem, 10vw, 5.7rem);
+
+  font-weight: 700;
+
+  line-height: 0.88;
+
+  letter-spacing: -0.055em;
+
+  text-wrap: balance;
+
+  text-shadow:
+    0 3px 15px rgba(0, 0, 0, 0.35);
+}
+
+/* --------------------------------
+   SUBTITLE
+-------------------------------- */
+
+.subtitle {
+  order: 3;
+
+  margin: 28px 0 0;
+
+  padding-top: 20px;
+
+  max-width: 85%;
+
+  color: rgba(255, 255, 255, 0.94);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.55);
+
+  font-family:
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+  font-size: 1.05rem;
+
+  font-weight: 500;
+
+  letter-spacing: 0.12em;
+
+  line-height: 1.4;
+
+  text-transform: uppercase;
+}
+
+/* --------------------------------
+   COVER FOOTER
+-------------------------------- */
+
+.book-content .book-footer {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* --------------------------------
+   OPTIONAL COVER IMAGE
+-------------------------------- */
+
+.book-cover {
+  display: none;
+}
+
+/* --------------------------------
+   SMALL SCREEN
+-------------------------------- */
+
+@media (max-width: 600px) {
+  body {
+    padding: 15px;
+  }
+
+  .book-content {
+    width: min(100%, 430px);
+    min-height: 640px;
+
+    padding: 38px 32px 30px;
+  }
+
+  #bookTitle {
+    font-size: clamp(3rem, 15vw, 4.5rem);
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+  }
+
+  .book-content::after {
+    left: 11px;
+  }
+}
+
+/* --------------------------------
+   VERY SMALL PHONES
+-------------------------------- */
+
+@media (max-height: 700px) {
+  .book-content {
+    min-height: 0;
+    height: 90vh;
+  }
+}

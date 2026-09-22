@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Integrated Wikidata Commons map</title>
+    <link rel='stylesheet' href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'><link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <div class="app">
+
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">W</div>
+
+        <div class="brand-copy">
+          <div class="brand-title">Geographic Data</div>
+          <div class="brand-subtitle">
+            Wikidata → Wikimedia Commons → GeoJSON → Leaflet
+          </div>
+        </div>
+      </div>
+
+      <label class="theme-switch">
+        <input type="checkbox" id="themeToggle">
+        <span class="slider" aria-hidden="true"></span>
+        <span class="switch-label">Dark map</span>
+      </label>
+    </header>
+
+    <main class="workspace">
+
+      <aside class="entity-card">
+        <div class="entity-header">
+          <span class="entity-label">On Wikidata</span>
+
+          <button
+            class="entity-search"
+            id="wikidataButton"
+            type="button"
+            title="Open Wikidata item"
+            aria-label="Open Wikidata item"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m20 20-4-4"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="selector">
+          <label class="selector-label" for="mapSelect">
+            P3896 GeoJSON maps
+          </label>
+
+          <select id="mapSelect" disabled>
+            <option>Loading maps…</option>
+          </select>
+        </div>
+
+        <div class="entity-name" id="entityName">
+          Loading…
+        </div>
+
+        <div class="entity-id" id="entityId">—</div>
+
+        <div class="properties">
+          <div class="property">
+            <span class="property-id">P3896</span>
+            <span id="propertyP3896">Geoshape</span>
+          </div>
+
+          <div class="property">
+            <span class="property-id">Type</span>
+            <span>Q1589568</span>
+          </div>
+        </div>
+
+        <div class="entity-links" id="entityLinks">—</div>
+      </aside>
+
+      <section class="map-panel">
+        <header class="map-header">
+          <div class="map-heading">
+            <div class="map-title">Geographic representation</div>
+            <div class="map-source" id="mapSource">
+              Wikimedia Commons · GeoJSON
+            </div>
+          </div>
+
+          <div class="geo-status loading" id="geoStatus">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span id="geoStatusText">Loading</span>
+          </div>
+        </header>
+
+        <div id="map" class="map"></div>
+
+        <footer class="map-footer">
+          <div>
+            <strong>Source</strong>
+            <span id="footerSource">Wikimedia Commons</span>
+          </div>
+
+          <div>
+            <strong>Format</strong>
+            GeoJSON
+          </div>
+
+          <div>
+            <strong>Geometry</strong>
+            <span id="footerGeometry">—</span>
+          </div>
+        </footer>
+      </section>
+    <script src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'></script><script  src="./script.js"></script>
+
+  </body>
+  
+</html>
+

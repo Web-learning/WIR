@@ -1,0 +1,936 @@
+/* =========================================================
+   DESIGN TOKENS
+========================================================= */
+
+:root {
+  --logo: #819637;
+  --blue: #2a4b8d;
+  --green: #14866d;
+  --green-dark: #0f6b58;
+
+  --bg: #f8f9fa;
+  --panel: #fff;
+  --text: #202122;
+  --muted: #54595d;
+
+  --border: #a2a9b1;
+  --border-light: #c8ccd1;
+
+  --map-bg: #eaf2f8;
+  --shape: #14866d;
+  --shape-fill: rgb(20 134 109 / 25%);
+
+  --shadow:
+    0 1px 2px rgb(0 0 0 / 8%),
+    0 5px 18px rgb(0 0 0 / 6%);
+
+  --radius: 4px;
+  --transition: 180ms ease;
+}
+
+
+/* =========================================================
+   DARK THEME
+========================================================= */
+
+body.dark-map {
+  --bg: #101418;
+  --panel: #202122;
+  --text: #eaecf0;
+  --muted: #a2a9b1;
+
+  --border: #54595d;
+  --border-light: #444950;
+
+  --map-bg: #17212b;
+  --shape: #45c2a2;
+  --shape-fill: rgb(69 194 162 / 22%);
+}
+
+
+/* =========================================================
+   RESET / BASE
+========================================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light;
+}
+
+html:has(body.dark-map) {
+  color-scheme: dark;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+
+  background: var(--bg);
+  color: var(--text);
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  font-size: 14px;
+  line-height: 1.5;
+
+  transition:
+    background var(--transition),
+    color var(--transition);
+}
+
+button,
+select {
+  font: inherit;
+}
+
+button {
+  border: 0;
+}
+
+button,
+select,
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/* =========================================================
+   APP
+========================================================= */
+
+.app {
+  min-height: 100vh;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.topbar {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+
+  padding: 12px clamp(16px, 4vw, 32px);
+
+  background: var(--panel);
+  border-bottom: 1px solid var(--border-light);
+}
+
+
+/* Brand */
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.brand-mark {
+  display: grid;
+  place-items: center;
+
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+
+  border-radius: var(--radius);
+
+  background: var(--logo);
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.brand-copy {
+  min-width: 0;
+}
+
+.brand-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.brand-subtitle {
+  margin-top: 2px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  color: var(--muted);
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   THEME SWITCH
+========================================================= */
+
+.theme-switch {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  flex: 0 0 auto;
+
+  color: var(--muted);
+  font-size: 12px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.theme-switch input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.slider {
+  position: relative;
+
+  width: 42px;
+  height: 22px;
+
+  border-radius: 999px;
+
+  background: #c8ccd1;
+
+  transition: background var(--transition);
+}
+
+.slider::after {
+  content: "";
+
+  position: absolute;
+  top: 3px;
+  left: 3px;
+
+  width: 16px;
+  height: 16px;
+
+  border-radius: 50%;
+
+  background: #fff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 25%);
+
+  transition: transform var(--transition);
+}
+
+.theme-switch input:checked + .slider {
+  background: var(--logo);
+}
+
+.theme-switch input:checked + .slider::after {
+  transform: translateX(20px);
+}
+
+.theme-switch input:focus-visible + .slider {
+  outline: 2px solid var(--logo);
+  outline-offset: 3px;
+}
+
+
+/* =========================================================
+   WORKSPACE
+========================================================= */
+
+.workspace {
+  width: min(1200px, calc(100% - 40px));
+
+  margin: 40px auto;
+
+  display: grid;
+  grid-template-columns: minmax(260px, 300px) minmax(0, 1fr);
+  gap: 24px;
+}
+
+
+/* =========================================================
+   SHARED PANEL
+========================================================= */
+
+.entity-card,
+.map-panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+
+/* =========================================================
+   ENTITY CARD
+========================================================= */
+
+.entity-card {
+  align-self: start;
+}
+
+.entity-header,
+.map-header {
+  border-bottom: 1px solid var(--border-light);
+}
+
+
+/* Entity header */
+
+.entity-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  min-height: 65px;
+  padding: 14px 18px;
+}
+
+.entity-label,
+.selector-label {
+  color: var(--muted);
+
+  font-size: 10px;
+  font-weight: 600;
+
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+
+/* Search button */
+
+.entity-search {
+  display: grid;
+  place-items: center;
+
+  width: 28px;
+  height: 28px;
+  padding: 0;
+
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius);
+
+  background: var(--panel);
+  color: var(--muted);
+
+  cursor: pointer;
+
+  transition:
+    color var(--transition),
+    border-color var(--transition),
+    background var(--transition);
+}
+
+.entity-search svg {
+  width: 15px;
+  height: 15px;
+}
+
+.entity-search:hover {
+  color: var(--logo);
+  border-color: var(--logo);
+}
+
+.entity-search:focus-visible {
+  outline: 2px solid var(--logo);
+  outline-offset: 2px;
+}
+
+
+/* =========================================================
+   SELECTOR
+========================================================= */
+
+.selector {
+  padding: 16px 18px 0;
+}
+
+.selector-label {
+  display: block;
+  margin-bottom: 7px;
+}
+
+#mapSelect {
+  display: block;
+
+  width: 100%;
+  min-height: 36px;
+  padding: 8px 10px;
+
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+
+  background: var(--panel);
+  color: var(--text);
+
+  font-size: 12px;
+
+  cursor: pointer;
+
+  transition:
+    border-color var(--transition),
+    box-shadow var(--transition);
+}
+
+#mapSelect:focus-visible {
+  outline: none;
+  border-color: var(--logo);
+  box-shadow: 0 0 0 2px rgb(129 150 55 / 15%);
+}
+
+#mapSelect:disabled {
+  cursor: wait;
+  opacity: .7;
+}
+
+
+/* =========================================================
+   ENTITY DETAILS
+========================================================= */
+
+.entity-name {
+  padding: 20px 18px 3px;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.25;
+
+  overflow-wrap: anywhere;
+}
+
+.entity-id {
+  display: inline-block;
+
+  margin: 0 18px 20px;
+  padding: 4px 7px;
+
+  border-radius: 3px;
+
+  background: #eaecf0;
+  color: var(--blue);
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   PROPERTIES
+========================================================= */
+
+.properties {
+  border-top: 1px solid var(--border-light);
+}
+
+.property {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 12px;
+
+  padding: 11px 18px;
+
+  border-bottom: 1px solid var(--border-light);
+
+  font-size: 12px;
+}
+
+.property-id {
+  color: var(--logo);
+
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-weight: 700;
+}
+
+
+/* =========================================================
+   ENTITY LINKS
+========================================================= */
+
+.entity-links {
+  padding: 14px 18px;
+
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.entity-links a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.entity-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   MAP PANEL
+========================================================= */
+
+.map-panel {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.map-header {
+  min-height: 65px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  padding: 14px 20px;
+}
+
+.map-heading {
+  min-width: 0;
+}
+
+.map-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.map-source {
+  max-width: 600px;
+  margin-top: 3px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  color: var(--muted);
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   GEO STATUS
+========================================================= */
+
+.geo-status {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  flex: 0 0 auto;
+
+  color: var(--green-dark);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 7px;
+
+  border-radius: 50%;
+  background: var(--green);
+}
+
+.geo-status.loading {
+  color: #996c00;
+}
+
+.geo-status.loading .status-dot {
+  background: #c58b00;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+.geo-status.error {
+  color: #b00020;
+}
+
+.geo-status.error .status-dot {
+  background: #b00020;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: .3;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+
+/* =========================================================
+   MAP
+========================================================= */
+
+.map {
+  height: clamp(400px, 55vh, 560px);
+  background: var(--map-bg);
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: var(--map-bg);
+}
+
+
+/* =========================================================
+   LEAFLET MAP LABEL
+========================================================= */
+
+.map-label {
+  position: absolute;
+  z-index: 1000;
+
+  left: 16px;
+  bottom: 16px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+
+  min-height: 32px;
+  padding: 6px 10px;
+
+  border: 1px solid rgb(255 255 255 / 70%);
+  border-radius: 5px;
+
+  background: rgb(255 255 255 / 92%);
+  color: var(--text);
+
+  box-shadow:
+    0 2px 5px rgb(0 0 0 / 12%),
+    0 6px 18px rgb(0 0 0 / 8%);
+
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    monospace;
+
+  font-size: 10px;
+  line-height: 1;
+
+  letter-spacing: .01em;
+
+  pointer-events: none;
+
+  user-select: none;
+}
+
+
+/* Coordinate value */
+
+.coordinate {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+
+  margin: 0;
+
+  color: var(--green-dark);
+
+  font-weight: 700;
+}
+
+
+/* Small location indicator */
+
+.coordinate::before {
+  content: "";
+
+  width: 6px;
+  height: 6px;
+
+  flex: 0 0 6px;
+
+  border: 2px solid var(--green);
+  border-radius: 50%;
+
+  background: var(--panel);
+
+  box-shadow:
+    0 0 0 2px rgb(20 134 109 / 12%);
+}
+
+
+/* Optional secondary text inside the label */
+
+.map-label .label-meta {
+  padding-left: 9px;
+
+  border-left: 1px solid var(--border-light);
+
+  color: var(--muted);
+
+  font-size: 9px;
+}
+
+
+/* =========================================================
+   DARK MAP
+========================================================= */
+
+body.dark-map .map-label {
+  border-color: rgb(255 255 255 / 10%);
+
+  background: rgb(32 33 34 / 90%);
+  color: var(--text);
+
+  box-shadow:
+    0 2px 6px rgb(0 0 0 / 30%),
+    0 8px 20px rgb(0 0 0 / 20%);
+}
+
+body.dark-map .coordinate {
+  color: #45c2a2;
+}
+
+body.dark-map .coordinate::before {
+  border-color: #45c2a2;
+  box-shadow:
+    0 0 0 2px rgb(69 194 162 / 12%);
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+  .map-label {
+    left: 10px;
+    bottom: 10px;
+
+    min-height: 30px;
+    padding: 6px 8px;
+
+    font-size: 9px;
+  }
+
+  .coordinate::before {
+    width: 5px;
+    height: 5px;
+    flex-basis: 5px;
+  }
+}
+
+
+/* =========================================================
+   MAP FOOTER
+========================================================= */
+
+.map-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 30px;
+
+  padding: 12px 20px;
+
+  border-top: 1px solid var(--border-light);
+
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.map-footer > div {
+  min-width: 70px;
+}
+
+.map-footer strong {
+  display: block;
+  margin-bottom: 2px;
+
+  color: var(--text);
+  font-size: 10px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 900px) {
+  .workspace {
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .map {
+    height: 460px;
+  }
+}
+
+
+@media (max-width: 760px) {
+  .topbar {
+    align-items: flex-start;
+  }
+
+  .brand-subtitle {
+    max-width: 55vw;
+  }
+
+  .workspace {
+    width: min(100% - 24px, 600px);
+    margin: 24px auto;
+
+    grid-template-columns: 1fr;
+  }
+
+  .entity-card {
+    width: 100%;
+  }
+
+  .map {
+    height: 420px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .topbar {
+    min-height: 64px;
+    padding: 10px 12px;
+    gap: 12px;
+  }
+
+  .brand {
+    gap: 9px;
+  }
+
+  .brand-mark {
+    width: 32px;
+    height: 32px;
+    flex-basis: 32px;
+    font-size: 16px;
+  }
+
+  .brand-title {
+    font-size: 14px;
+  }
+
+  .brand-subtitle {
+    display: none;
+  }
+
+  .switch-label {
+    display: none;
+  }
+
+  .workspace {
+    width: calc(100% - 16px);
+    margin: 16px auto;
+  }
+
+  .map-header {
+    align-items: flex-start;
+    padding: 14px 16px;
+  }
+
+  .map-source {
+    max-width: 48vw;
+  }
+
+  .map {
+    height: 360px;
+  }
+
+  .map-footer {
+    padding: 11px 16px;
+    gap: 16px 24px;
+  }
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
+
+/* =========================================================
+   LEAFLET POPUPS
+========================================================= */
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: var(--panel);
+  color: var(--text);
+}
+
+.leaflet-popup-content {
+  min-width: 180px;
+  margin: 12px 14px;
+
+  color: var(--text);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.leaflet-popup-content strong {
+  color: var(--text);
+}
+
+.leaflet-popup-content hr {
+  margin: 8px 0;
+  border: 0;
+  border-top: 1px solid var(--border-light);
+}
+
+.popup-properties {
+  display: grid;
+  gap: 3px;
+}
+
+.popup-properties strong {
+  color: var(--green-dark);
+}
+
+body.dark-map .leaflet-control-zoom a {
+  background: var(--panel);
+  color: var(--text);
+  border-color: var(--border-light);
+}
+
+body.dark-map .leaflet-control-attribution {
+  background: rgb(32 33 34 / 85%);
+  color: var(--muted);
+}
+
+body.dark-map .leaflet-control-attribution a {
+  color: #8ab4f8;
+}

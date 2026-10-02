@@ -1,6 +1,6 @@
 {
-  "theme": "day"
+  "theme": "night",
+  "message": "Good evening! The website is currently using the night theme.",
+  "icon": "🌙"
 }
-{
-  "theme": "night"
-}
+

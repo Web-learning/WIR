@@ -1,5 +1,5 @@
 {
-  "activeTheme": "night",
+  "activeTheme": "auto",
 
   "auto": {
     "day": "day",
@@ -10,28 +10,96 @@
     "day": {
       "name": "Day",
       "icon": "☀️",
-      "message": "Howdy! Beautiful day eh.",
+      "message": "Good morning! The website is using the day theme.",
+
       "colors": {
         "background": "#f5f7fb",
         "text": "#172033",
         "card": "#ffffff",
         "secondary": "#667085",
         "border": "#d9dee8",
-        "accent": "#2563eb"
+        "accent": "#2563eb",
+        "codeBackground": "#eef2ff"
+      },
+
+      "typography": {
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "headingWeight": "700",
+        "bodyWeight": "400",
+        "lineHeight": "1.6",
+        "baseFontSize": "16px"
+      },
+
+      "shape": {
+        "containerRadius": "20px",
+        "statusRadius": "10px",
+        "codeRadius": "5px"
+      },
+
+      "spacing": {
+        "containerPadding": "50px 40px",
+        "iconMarginBottom": "20px",
+        "headingMarginBottom": "15px",
+        "statusMargin": "30px 0",
+        "statusPadding": "15px",
+        "codePadding": "3px 7px"
+      },
+
+      "shadows": {
+        "container": "0 20px 50px rgba(0, 0, 0, 0.08)"
+      },
+
+      "effects": {
+        "transitionSpeed": "0.3s",
+        "transitionEasing": "ease"
       }
     },
 
     "night": {
       "name": "Night",
       "icon": "🌙",
-      "message": "Stars out? Have a good night.",
+      "message": "Good evening! The website is using the night theme.",
+
       "colors": {
         "background": "#0f172a",
         "text": "#f8fafc",
         "card": "#1e293b",
         "secondary": "#94a3b8",
         "border": "#334155",
-        "accent": "#60a5fa"
+        "accent": "#60a5fa",
+        "codeBackground": "#172033"
+      },
+
+      "typography": {
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "headingWeight": "700",
+        "bodyWeight": "400",
+        "lineHeight": "1.6",
+        "baseFontSize": "16px"
+      },
+
+      "shape": {
+        "containerRadius": "20px",
+        "statusRadius": "10px",
+        "codeRadius": "5px"
+      },
+
+      "spacing": {
+        "containerPadding": "50px 40px",
+        "iconMarginBottom": "20px",
+        "headingMarginBottom": "15px",
+        "statusMargin": "30px 0",
+        "statusPadding": "15px",
+        "codePadding": "3px 7px"
+      },
+
+      "shadows": {
+        "container": "0 20px 50px rgba(0, 0, 0, 0.35)"
+      },
+
+      "effects": {
+        "transitionSpeed": "0.3s",
+        "transitionEasing": "ease"
       }
     },
 
@@ -39,13 +107,47 @@
       "name": "Forest",
       "icon": "🌲",
       "message": "The website is using the forest theme.",
+
       "colors": {
-        "background": "#f0fdf4",
-        "text": "#14532d",
+        "background": "#ecfdf5",
+        "text": "#064e3b",
         "card": "#ffffff",
-        "secondary": "#4d7c5a",
-        "border": "#bbf7d0",
-        "accent": "#16a34a"
+        "secondary": "#4b7663",
+        "border": "#a7f3d0",
+        "accent": "#059669",
+        "codeBackground": "#d1fae5"
+      },
+
+      "typography": {
+        "fontFamily": "Georgia, 'Times New Roman', serif",
+        "headingWeight": "700",
+        "bodyWeight": "400",
+        "lineHeight": "1.7",
+        "baseFontSize": "16px"
+      },
+
+      "shape": {
+        "containerRadius": "28px",
+        "statusRadius": "14px",
+        "codeRadius": "7px"
+      },
+
+      "spacing": {
+        "containerPadding": "55px 45px",
+        "iconMarginBottom": "25px",
+        "headingMarginBottom": "18px",
+        "statusMargin": "35px 0",
+        "statusPadding": "18px",
+        "codePadding": "4px 8px"
+      },
+
+      "shadows": {
+        "container": "0 20px 50px rgba(5, 150, 105, 0.12)"
+      },
+
+      "effects": {
+        "transitionSpeed": "0.4s",
+        "transitionEasing": "ease-in-out"
       }
     },
 
@@ -53,27 +155,95 @@
       "name": "Ocean",
       "icon": "🌊",
       "message": "The website is using the ocean theme.",
+
       "colors": {
         "background": "#eff6ff",
         "text": "#172554",
         "card": "#ffffff",
         "secondary": "#476582",
         "border": "#bfdbfe",
-        "accent": "#0284c7"
+        "accent": "#0284c7",
+        "codeBackground": "#dbeafe"
+      },
+
+      "typography": {
+        "fontFamily": "Verdana, Geneva, sans-serif",
+        "headingWeight": "700",
+        "bodyWeight": "400",
+        "lineHeight": "1.6",
+        "baseFontSize": "16px"
+      },
+
+      "shape": {
+        "containerRadius": "24px",
+        "statusRadius": "12px",
+        "codeRadius": "6px"
+      },
+
+      "spacing": {
+        "containerPadding": "50px 40px",
+        "iconMarginBottom": "20px",
+        "headingMarginBottom": "15px",
+        "statusMargin": "30px 0",
+        "statusPadding": "15px",
+        "codePadding": "3px 7px"
+      },
+
+      "shadows": {
+        "container": "0 20px 50px rgba(2, 132, 199, 0.15)"
+      },
+
+      "effects": {
+        "transitionSpeed": "0.3s",
+        "transitionEasing": "ease"
       }
     },
 
-    "purple": {
-      "name": "Purple",
-      "icon": "💜",
-      "message": "The website is using the purple theme.",
+    "sunset": {
+      "name": "Sunset",
+      "icon": "🌅",
+      "message": "The website is using the sunset theme.",
+
       "colors": {
-        "background": "#faf5ff",
-        "text": "#3b0764",
+        "background": "#fff7ed",
+        "text": "#431407",
         "card": "#ffffff",
-        "secondary": "#7e5a9b",
-        "border": "#e9d5ff",
-        "accent": "#9333ea"
+        "secondary": "#9a6b4f",
+        "border": "#fed7aa",
+        "accent": "#ea580c",
+        "codeBackground": "#ffedd5"
+      },
+
+      "typography": {
+        "fontFamily": "Trebuchet MS, Arial, sans-serif",
+        "headingWeight": "700",
+        "bodyWeight": "400",
+        "lineHeight": "1.6",
+        "baseFontSize": "16px"
+      },
+
+      "shape": {
+        "containerRadius": "30px",
+        "statusRadius": "15px",
+        "codeRadius": "8px"
+      },
+
+      "spacing": {
+        "containerPadding": "60px 45px",
+        "iconMarginBottom": "25px",
+        "headingMarginBottom": "20px",
+        "statusMargin": "35px 0",
+        "statusPadding": "18px",
+        "codePadding": "4px 9px"
+      },
+
+      "shadows": {
+        "container": "0 25px 60px rgba(234, 88, 12, 0.12)"
+      },
+
+      "effects": {
+        "transitionSpeed": "0.5s",
+        "transitionEasing": "ease-in-out"
       }
     }
   }

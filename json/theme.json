@@ -1,6 +1,80 @@
 {
-  "theme": "night",
-  "message": "Good evening! The website is currently using the night theme.",
-  "icon": "🌙"
-}
+  "activeTheme": "auto",
 
+  "auto": {
+    "day": "day",
+    "night": "night"
+  },
+
+  "themes": {
+    "day": {
+      "name": "Day",
+      "icon": "☀️",
+      "message": "Good morning! The website is using the day theme.",
+      "colors": {
+        "background": "#f5f7fb",
+        "text": "#172033",
+        "card": "#ffffff",
+        "secondary": "#667085",
+        "border": "#d9dee8",
+        "accent": "#2563eb"
+      }
+    },
+
+    "night": {
+      "name": "Night",
+      "icon": "🌙",
+      "message": "Good evening! The website is using the night theme.",
+      "colors": {
+        "background": "#0f172a",
+        "text": "#f8fafc",
+        "card": "#1e293b",
+        "secondary": "#94a3b8",
+        "border": "#334155",
+        "accent": "#60a5fa"
+      }
+    },
+
+    "forest": {
+      "name": "Forest",
+      "icon": "🌲",
+      "message": "The website is using the forest theme.",
+      "colors": {
+        "background": "#f0fdf4",
+        "text": "#14532d",
+        "card": "#ffffff",
+        "secondary": "#4d7c5a",
+        "border": "#bbf7d0",
+        "accent": "#16a34a"
+      }
+    },
+
+    "ocean": {
+      "name": "Ocean",
+      "icon": "🌊",
+      "message": "The website is using the ocean theme.",
+      "colors": {
+        "background": "#eff6ff",
+        "text": "#172554",
+        "card": "#ffffff",
+        "secondary": "#476582",
+        "border": "#bfdbfe",
+        "accent": "#0284c7"
+      }
+    },
+
+    "purple": {
+      "name": "Purple",
+      "icon": "💜",
+      "message": "The website is using the purple theme.",
+      "colors": {
+        "background": "#faf5ff",
+        "text": "#3b0764",
+        "card": "#ffffff",
+        "secondary": "#7e5a9b",
+        "border": "#e9d5ff",
+        "accent": "#9333ea"
+      }
+    }
+  }
+}

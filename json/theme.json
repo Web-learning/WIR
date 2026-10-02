@@ -10,7 +10,7 @@
     "day": {
       "name": "Day",
       "icon": "☀️",
-      "message": "Good morning! The website is using the day theme.",
+      "message": "Howdy! Beautiful day eh.",
       "colors": {
         "background": "#f5f7fb",
         "text": "#172033",
@@ -24,7 +24,7 @@
     "night": {
       "name": "Night",
       "icon": "🌙",
-      "message": "Good evening! The website is using the night theme.",
+      "message": "Stars out? Have a good night.",
       "colors": {
         "background": "#0f172a",
         "text": "#f8fafc",

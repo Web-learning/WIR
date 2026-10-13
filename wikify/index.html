@@ -1,0 +1,169 @@
+<link rel="stylesheet" href="./style.css">
+<div class="phone" id="phone">
+
+  <!-- VIDEO SCENE -->
+  <div class="scene" id="scene">
+    <img
+      class="sceneImage"
+      id="sceneImage"
+      src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Slide_title.jpg"
+      alt="Weblearning CC BY-SA 4.0| Hosted an Commons"
+    />
+  </div>
+
+  <!-- TOP BAR -->
+  <div class="top">
+    <div class="logo">Wikify</div>
+    <div class="live">● Conference</div>
+  </div>
+
+  <!-- CAPTION -->
+  <div class="content">
+    <div class="caption show" id="caption">
+
+      <div class="username" id="username">
+        @weblearning
+      </div>
+
+      <div class="description" id="description"></div>
+
+      <div class="hashtag" id="hashtag"></div>
+
+    </div>
+  </div>
+
+  <!-- FOUR ACTION BUTTONS -->
+  <div class="actions">
+
+    <!-- LIKE -->
+    <div class="action">
+      <button
+        id="like"
+        type="button"
+        aria-label="Like this scene"
+        aria-pressed="false"
+      >♡</button>
+
+      <span id="likeCount">12.4K</span>
+    </div>
+
+    <!-- COMMENT -->
+    <div class="action">
+      <button
+        id="comment"
+        type="button"
+        aria-label="Open comments"
+      >💬</button>
+
+      <span>Comment</span>
+    </div>
+
+    <!-- SHARE -->
+    <div class="action">
+      <button
+        id="share"
+        type="button"
+        aria-label="Share this scene"
+      >↗</button>
+
+      <span>Share</span>
+    </div>
+
+    <!-- SAVE -->
+    <div class="action">
+      <button
+        id="save"
+        type="button"
+        aria-label="Save this scene"
+        aria-pressed="false"
+      >🔖</button>
+
+      <span id="saveLabel">Save</span>
+    </div>
+
+  </div>
+
+  <!-- PLAY / PAUSE INDICATOR -->
+  <div class="play" id="play">
+    <div class="playIcon">▶</div>
+  </div>
+
+  <!-- FLOATING HEARTS -->
+  <div class="floating" id="floating"></div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+  >
+    <div class="toastIcon" id="toastIcon">✨</div>
+
+    <div class="toastTitle" id="toastTitle">
+      Welcome to Open Studios
+    </div>
+
+    <div class="toastText" id="toastText">
+      Discover architecture, people and places.
+    </div>
+  </div>
+
+  <!-- COMMENT PANEL -->
+  <div
+    class="commentPanel"
+    id="commentPanel"
+    aria-label="Comments panel"
+  >
+
+    <div class="panelHead">
+      <span>Comments</span>
+
+      <button
+        id="closeComments"
+        type="button"
+        aria-label="Close comments"
+      >×</button>
+    </div>
+
+    <p class="commentText">
+      Share your thoughts about this project,
+      the architecture or the people behind it.
+    </p>
+
+    <div class="commentInput">
+
+      <input
+        type="text"
+        id="commentInput"
+        placeholder="Write a comment..."
+        maxlength="180"
+        aria-label="Write a comment"
+      />
+
+      <button
+        type="button"
+        id="postComment"
+      >Post</button>
+
+    </div>
+
+    <div
+      class="reply"
+      id="commentReply"
+      aria-live="polite"
+    ></div>
+
+  </div>
+
+  <!-- VIDEO PROGRESS -->
+  <div class="progress">
+    <div
+      class="progressBar"
+      id="progressBar"
+    ></div>
+  </div>
+
+</div>
+
+<script src="./script.js"></script>

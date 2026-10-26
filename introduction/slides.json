@@ -1,5 +1,5 @@
 {
-  "title": "Weblearning",
+  "title": "My Presentation",
   "theme": {
     "background": "#0b1020",
     "accent": "#8b5cf6",
@@ -8,26 +8,25 @@
   "slides": [
     {
       "type": "title",
-      "title": "Wikification",
-      "subtitle": "A guide for verncular Wikipedia",
+      "title": "The Future Starts Here",
+      "subtitle": "A presentation powered by GitHub JSON",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600"
     },
     {
       "type": "content",
       "title": "Our Vision",
-      "subtitle": "Vernacular Wikipedia",
+      "subtitle": "Building a better tomorrow",
       "body": "Great ideas become reality when vision, creativity, and execution work together.",
-      "image": "https://youtu.be/66r9NZwaBmw?si=iaNh5u0kYKjRkBP3"
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1600"
     },
     {
       "type": "content",
       "title": "The Road Ahead",
       "subtitle": "Three priorities",
       "items": [
-        "Accountable Administrators",
-        "Master Classes",
-        "Openly Licensed Materials",
-        "Meaningful Results"
+        "Think boldly",
+        "Build collaboratively",
+        "Deliver meaningful results"
       ]
     }
   ]

@@ -10,24 +10,20 @@
       "type": "title",
       "title": "The Future Starts Here",
       "subtitle": "A presentation powered by GitHub JSON",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600"
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Earth_Eastern_Hemisphere.jpg"
     },
     {
       "type": "content",
       "title": "Our Vision",
       "subtitle": "Building a better tomorrow",
       "body": "Great ideas become reality when vision, creativity, and execution work together.",
-      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1600"
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Marble_2002.png"
     },
     {
       "type": "content",
-      "title": "The Road Ahead",
-      "subtitle": "Three priorities",
-      "items": [
-        "Think boldly",
-        "Build collaboratively",
-        "Deliver meaningful results"
-      ]
+      "title": "Video Presentation",
+      "subtitle": "Watch the story unfold",
+      "video": "https://www.w3schools.com/html/mov_bbb.mp4"
     }
   ]
 }

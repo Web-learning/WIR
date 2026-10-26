@@ -1,5 +1,5 @@
 {
-  "title": "My Presentation",
+  "title": "Weblearning",
   "theme": {
     "background": "#0b1020",
     "accent": "#8b5cf6",
@@ -8,14 +8,14 @@
   "slides": [
     {
       "type": "title",
-      "title": "The Future Starts Here",
-      "subtitle": "A presentation powered by GitHub JSON",
+      "title": "Wikification",
+      "subtitle": "with Wikimedia South Africa",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1600"
     },
     {
       "type": "content",
       "title": "Our Vision",
-      "subtitle": "Building a better tomorrow",
+      "subtitle": "Vernacular Wikipedia",
       "body": "Great ideas become reality when vision, creativity, and execution work together.",
       "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1600"
     },
@@ -24,9 +24,10 @@
       "title": "The Road Ahead",
       "subtitle": "Three priorities",
       "items": [
-        "Think boldly",
-        "Build collaboratively",
-        "Deliver meaningful results"
+        "Accountable Administrators",
+        "Master Classes",
+        "Openly Licensed Materials",
+        "Meaningful Results"
       ]
     }
   ]

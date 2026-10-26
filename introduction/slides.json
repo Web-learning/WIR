@@ -8,22 +8,22 @@
   "slides": [
     {
       "type": "title",
-      "title": "The Future Starts Here",
-      "subtitle": "A presentation powered by GitHub JSON",
+      "title": "From May - Sep 2026 | "Wikipedian in Residence Fellowship"  ",
+      "subtitle": "Code for Africa, the African Wikipedian Alliance (AWA) and the Norwegian Embassy of Foreign Affairs advertised for an African Wikipedians-in-Residence Fellowships.",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Earth_Eastern_Hemisphere.jpg"
     },
     {
       "type": "content",
-      "title": "Our Vision",
-      "subtitle": "Building a better tomorrow",
-      "body": "Great ideas become reality when vision, creativity, and execution work together.",
+      "title": "The Inclusion Project",
+      "subtitle": "The Fellowship was supposed to be a part-time, five-month programme that is designed to complement a Fellow’s existing ‘day job’. Fellows were expected to work part-time on their fellowship projects. They were also supposed to receive strategic and material support throughout their fellowship",
+      "body": "Our Focus:Xenophobia, Election, government, gender equity,and LGBTQ Rights.",
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Marble_2002.png"
     },
     {
       "type": "content",
       "title": "Video Presentation",
       "subtitle": "Watch the story unfold",
-      "video": "https://www.w3schools.com/html/mov_bbb.mp4"
+      "video": ""
     }
   ]
 }
